@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Layout = () => {
   return (
-    <div className="mt-5 mx-4 justify-center md:mt-8 md:mx-10 lg:mx-20 xl:mx-auto max-w-[1200px]">
+    <div className="pt-5 px-4 justify-center md:pt-6 md:px-10 lg:px-20 xl:mx-auto max-w-[1900px]">
       {/* Nav content */}
       <Navbar />
       {/* Page content */}
