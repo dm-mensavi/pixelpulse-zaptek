@@ -1,33 +1,18 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="mt-5 mx-4 justify-center md:mt-8 md:mx-10 lg:mx-20 xl:mx-auto max-w-[1200px]">
       {/* Nav content */}
-      <div className="flex m-5 justify-between">
-        <div>
-          <Link to="/">logo</Link>
-        </div>
-        <div>
-          <Link to="/projects">Projects</Link>
-        </div>
-        <div>
-          <Link to="/about">About us</Link>
-        </div>
-        <div>
-          <Link to="/process">Our process</Link>
-        </div>
-        <div>
-          <Link to="/blog">Blog</Link>
-        </div>
-        <div>
-          <Link to="/contact">Contact us</Link>
-        </div>
-      </div>
+      <Navbar />
       {/* Page content */}
       <div className="flex justify-center mt-10">
         <Outlet />
       </div>
+      {/* footer */}
+      <Footer />
     </div>
   )
 };
