@@ -13,10 +13,10 @@ import {AiOutlineStar} from 'react-icons/ai'
  
 /**
  * <div className="flex mt-5 flex-col text-center space-y-5">
-                <Link to="/project1">Project1</Link>
-                <Link to="/project2">Project2</Link>
-                <Link to="/project3">Project3</Link>
-                <Link to="/project4">Project4</Link>
+                
+                
+                
+                
             </div>
  */
 const Projects = () => {
@@ -40,7 +40,9 @@ const Projects = () => {
                 Strategic consultation boosts market impact
                 </Link>
                 <p  className="text-lg text-gray-500 lg:pb-10">Explore how GreenEco Landscapes partnered with PixelPulse to elevate their marketing strategies, achieving significant market impact.</p>
+                <Link to="/project1">
                 <button className="lg:h-[34px] lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">Read case study</button>
+                </Link>  
                 <p className="text-lg text-gray-500 lg:mt-10 lg:pl-6 lg:border-l-2">"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
                 <div className="flex lg:gap-4 lg:pt-10">
                     <img src={mic} alt="" className="h-10 w-10 rounded-full" />
@@ -60,7 +62,9 @@ const Projects = () => {
                 Revamped website drives conversion surge
                 </Link>
                 <p className="text-lg text-gray-500 lg:pb-14">Discover how Eco Tech partnered with PixelPulse to overhaul their website, resulting in a significant boost in conversions.</p>
+                <Link to="/project2">
                 <button className="lg:h-[34px] lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">Read case study</button>
+                </Link>
                 <p className="text-lg text-gray-500 lg:mt-10 lg:pl-6 lg:border-l-2">"PixelPulse's web development expertise revitalized our online platform, increasing conversions and user satisfaction. An outstanding team!"</p>
                 <div className="flex lg:gap-4 lg:pt-10">
                     <img src={sara} alt="" className="h-10 w-10 rounded-full" />
@@ -80,7 +84,8 @@ const Projects = () => {
                 Social media mastery drives engagement
                 </Link>
                 <p className="text-lg text-gray-500 lg:pb-14">Learn how GlobalSolutions Ltd. partnered with PixelPulse to harness the power of social media, resulting in unprecedented engagement.</p>
-                <button className="lg:h-[34px] lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">Read case study</button>
+                <Link to="/project3">
+                <button className="lg:h-[34px] lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">Read case study</button></Link>                      
                 <p className="text-lg text-gray-500 lg:mt-10 lg:pl-6 lg:border-l-2">"PixelPulse's social media expertise transformed our brand's online presence, fostering genuine engagement and growth."</p>
                 <div className="flex lg:gap-4 lg:pt-10">
                     <img src={david} alt="" className="h-10 w-10 rounded-full" />
@@ -100,7 +105,9 @@ const Projects = () => {
                 SEO revamp drives skyrocketing traffic
                 </Link>
                 <p className="text-lg text-gray-500 lg:pb-12">Discover how TechInnovators Inc. partnered with PixelPulse to revitalize their online presence and achieve remarkable growth through SEO optimization.</p>
+                <Link to="/project4">
                 <button className="lg:h-[34px] lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">Read case study</button>
+                </Link>
                 <p className="text-lg text-gray-500 lg:mt-10 lg:pl-6 lg:border-l-2">"PixelPulse's SEO strategies completely transformed our online visibility. We're now a front-runner in our industry. Truly outstanding work!"</p>
                 <div className="flex lg:gap-4 lg:pt-10">
                     <img src={emily} alt="" className="h-10 w-10 rounded-full" />
@@ -113,7 +120,7 @@ const Projects = () => {
             </div>
             </div>
         </div>
-          <div className="bg-gray-600 text-white lg:h-[600px] lg:mt-40 lg:items-center">
+          <div className="bg-[#374151] text-white lg:h-[600px] lg:mt-40 lg:items-center">
           <div className="lg:pl-32 lg:pr-44 flex lg:flex-col lg:justify-center lg:pt-32 lg:mb-40 lg:gap-8">
           <div className="flex lg:flex-row gap-2 lg:pb-4">
             <AiOutlineStar size={'40px'} color="lightBlue"/>
@@ -161,13 +168,13 @@ const Projects = () => {
         </div>
       </div>
       <div className="lg:pr-32 lg:pl-32 lg:mt-20">
-        <div className="bg-gray-600 lg:h-96 flex lg:flex-col lg:justify-center lg:items-center rounded-3xl">
+        <div className="bg-[#374151] lg:h-96 flex lg:flex-col lg:justify-center lg:items-center rounded-3xl">
         <div className="lg:justify-center lg:items-center flex lg:flex-col lg:w-[500px] lg:gap-10">
         <h1 className="text-white font-bold lg:text-4xl">Subscribe to our newsletter</h1>
         <p className="text-gray-400">Stay updated with industry trends. Subscribe now for insights, tips, and exclusive offers. Join our community!</p>
         <div className="flex gap-4">
         <input type="text" className="bg-transparent border-2 border-blue-300 lg:w-80 lg:h-10 rounded-lg" placeholder="Enter your email" />
-        <button className="lg:h-10 lg:w-40 bg-white rounded-lg text-blue-600">Subscribe</button>
+        <button className="lg:h-10 lg:w-40 bg-white rounded-lg text-blue-600 hover:bg-blue-200">Subscribe</button>
         </div>
         </div>
         </div>
