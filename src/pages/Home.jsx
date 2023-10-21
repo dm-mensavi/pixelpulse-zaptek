@@ -3,7 +3,7 @@ import heroImage from "../public/heroimage.webp";
 
 function Home() {
 	return (
-		<div className="flex flex-col lg:flex-row items-center md:items-start justify-center md:justify-between py-10 px-0 -mx-32 lg:mx-0 lg:py-20">
+		<div className="flex flex-col lg:flex-row items-center md:items-start justify-center md:justify-between py-10 px-0 lg:mx-0 lg:py-20">
 			{/* Column 1 */}
 			<div className="text-center w-1/2 py-10 space-y-7 self-center lg:text-left max-w-lg">
 				<h1 className="text-black text-3xl sm:text-4xl md:text-6xl font-black mb-4">

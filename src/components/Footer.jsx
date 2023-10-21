@@ -12,7 +12,7 @@ import {
 
 function Footer() {
 	return (
-		<div className="flex flex-col font-semibold -mx-[200%] items-center space-y-10 bg-[#374151] py-20">
+		<div className="flex flex-col font-semibold max-w-[1900] -mx-4 md:-mx-10 lg:-mx-20 px-20 items-center space-y-10 bg-[#374151] py-20">
 			{/* logo */}
 			<div>
 				<Link to="/">
@@ -58,14 +58,14 @@ function Footer() {
       </div>
 
       {/* Horizontal line */}
-      <div className="w-[18%] h-[2px] bg-gray-600">.</div>
+      <div className="w-full h-[2px] bg-gray-600">.</div>
 
       {/* Copy right */}
-      <div className="flex flex-col text-white/50 space-y-3 font-normal w-[18%]  md:flex-row justify-between ">
+      <div className="flex flex-col text-white/50 space-y-3 font-normal w-full  md:flex-row justify-between ">
         <div className="mx-auto sm:mx-0 sm:mt-5">
           ©️2023 Your Company, Inc. All rights reserved.
         </div>
-        <div className="flex space-x-8">
+        <div className="flex flex-col sm:flex-row md:space-x-8 text-center self-center">
           <div className="hover:text-white hover:bg-white/10 rounded-md px-3 py-2 transition duration-300 ease-in-out">
             <Link to="">License</Link>
           </div>
