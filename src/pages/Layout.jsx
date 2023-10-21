@@ -8,7 +8,7 @@ const Layout = () => {
       {/* Nav content */}
       <Navbar />
       {/* Page content */}
-      <div className="flex justify-center mt-10">
+      <div className="">
         <Outlet />
       </div>
       {/* footer */}
