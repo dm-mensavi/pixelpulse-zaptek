@@ -1,31 +1,34 @@
 import React from 'react'
+import first from '../../assets/1.jpg';
 
 function Project1() {
   return (
     <div>
-      <div>
-      <div>
-      <h3>Case study</h3>
-      <h1>Strategic consultation boosts market impact</h1>
-      <p>Explore how GreenEco Landscapes partnered with PixelPulse to elevate their marketing strategies, achieving significant market impact.</p>
+      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
+      <div className='border-b text-center'>
+      <h3 className='font-semibold text-base'>Case study</h3>
+      <h1 className='font-bold text-4xl lg:pt-6'>Strategic consultation boosts market impact</h1>
+      <p className='text-gray-400 text-2xl lg:pb-10 lg:pt-6'>Explore how GreenEco Landscapes partnered with PixelPulse to elevate their marketing strategies, achieving significant market impact.</p>
       </div>
-      <div>
-        <div>
-        <h5>Client</h5>
-        <p>Green Eco</p>
+      <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10'>
+        <div className='lg:w-72'>
+        <h5 className='font-semibold'>Client</h5>
+        <p className='lg:pt-2'>Green Eco</p>
         </div>
-        <div>
-        <h5>Year</h5>
-        <p>September 2023</p>
+        <div className='lg:w-72'>
+        <h5 className='font-semibold'>Year</h5>
+        <p className='lg:pt-2'>September 2023</p>
         </div>
-        <div>
-        <h5>Service</h5>
-        <p>Marketing Consultation</p>
+        <div className='lg:w-72'>
+        <h5 className='font-semibold'>Service</h5>
+        <p className='lg:pt-2'>Marketing Consultation</p>
         </div>
       </div>
-      <img src="" alt="strategy" />
-      <div>
-        <h3>Overview</h3>
+      <div className='lg:pt-20'>
+      <img src={first} alt="strategy" className='rounded-3xl' />
+      </div>
+      <div className='lg:pt-10'>
+        <h3 className='font-bold text-3xl'>Overview</h3>
         <p>At PixelPulse, we embark on exciting journeys with our clients to transform their digital presence. Our latest project with Green Eco showcases our commitment to delivering outstanding results in the ever-evolving landscape of digital marketing and web development.</p>
       </div>
       <div>

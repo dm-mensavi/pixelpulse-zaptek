@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import second from '../../assets/2.jpg';
 
 function Project2() {
   return (
     <div>
+      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
       <div>
-      <h3>Case study</h3>
+      <h3 className='font-semibold text-base'>Case study</h3>
       <h1>Revamped website drives conversion surge</h1>
       <p>Discover how Eco Tech partnered with PixelPulse to overhaul their website, resulting in a significant boost in conversions.</p>
       </div>
@@ -22,7 +24,9 @@ function Project2() {
         <p>Web Development</p>
         </div>
       </div>
-      <img src="" alt="strategy" />
+      <div>
+      <img src={second} alt="strategy" className='rounded-3xl' />
+      </div>
       <div>
         <h3>Overview</h3>
         <p>In this comprehensive case study, we dive deep into a project that exemplifies PixelPulse's ability to transform a client's online presence through strategic Search Engine Optimization (SEO) techniques. The client, TechInnovators Inc., approached us with the goal of redefining their digital footprint and establishing themselves as a frontrunner in their industry.</p>
@@ -94,42 +98,51 @@ function Project2() {
         </div>
       </div>
       <div>
+        <h3>Bounce rate reduction</h3>
+        <p>Through improved content and user experience, we achieved a significant <span className='font-semibold'>95% reduction in bounce rate</span>, indicating higher user engagement and satisfaction.</p>
+      </div>
+      <div>
         <h3>Conclusion</h3>
-        <p>In conclusion, our partnership with Green Eco is a testament to our commitment to driving exceptional results in the digital realm. We thrive on challenges, and this project showcases our ability to transform digital landscapes and achieve measurable success for our clients. We look forward to continuing this journey with Green Eco and helping them reach even greater heights in their digital endeavors.</p>
+        <p>This case study serves as a testament to PixelPulse's ability to leverage SEO expertise to deliver tangible results. By aligning our strategies with TechInnovators Inc.'s goals and continuously optimizing our approach, we achieved exceptional growth in website traffic, keyword rankings, conversions, and user satisfaction.</p>
+        <p>Through our data-driven, innovative, and client-focused approach, we have not only boosted TechInnovators Inc.'s online presence but also positioned them as leaders in their industry, achieving a remarkable return on investment.</p>
+        <p>If you're ready to enhance your brand's online visibility and drive remarkable results, just like TechInnovators Inc., don't hesitate to reach out to PixelPulse. We're here to help you achieve your digital marketing goals.</p>
       </div>
       <div>
         <h3>What we did</h3>
         <div>
-          <p>Market analysis</p>
-          <p>Competitor research</p>
-          <p>Content strategy</p>
-          <p>Campaign execution</p>
-          <p>Social media optimization</p>
+          <p>Website audit</p>
+          <p>Responsive design</p>
+          <p>Content optimization</p>
+          <p>Improved navigation</p>
+          <p>User experience</p>
         </div>
       </div>
       <div>
         <img src="" alt="mic" />
         <div>
-          <p>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
-          <p>Michael Turner</p>
-          <p>Marketing Director</p>
+          <p>"PixelPulse's web development expertise revitalized our online platform, increasing conversions and user satisfaction. An outstanding team!"</p>
+          <p>Sarah Williams</p>
+          <p>CTO</p>
         </div>
       </div>
       <div>
-        <h1>300%</h1>
-        <p>Brand awareness</p>
+      <div>
+        <h1>120%</h1>
+        <p>Increase in conversions</p>
       </div>
       <div>
-        <h1>40%</h1>
-        <p>Market share</p>
+        <h1>50%</h1>
+        <p>Reduction in bounce rate</p>
       </div>
       <div>
-        <h1>90%</h1>
-        <p>Online engagement</p>
+        <h1>3s</h1>
+        <p>Faster page load times</p>
       </div>
       <div>
         <h1>95%</h1>
-        <p>Sentiment increase</p>
+        <p>User satisfaction increase</p>
+      </div>
+      </div>
       </div>
     </div>
   )
