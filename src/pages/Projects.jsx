@@ -86,6 +86,8 @@ const Projects = () => {
 					<div className="w-full h-[1px] bg-gray-300 my-5"></div>
 				<div className="flex lg:flex-col mt-0 lg:mt-20 pt-20 w-full justify-between gap-y-20 flex-col">
 					{projectData.map((project, index) => (
+                        <div>
+
 						<div
 							className="flex justify-between flex-col md:flex-row"
 							key={index}>
@@ -131,6 +133,9 @@ const Projects = () => {
 								/>
 							</div>
 						</div>
+                            <div className="w-full h-[1px] bg-gray-200 md:mt-32 mt-20 mb-0 md:mb-10"></div>
+                            </div>
+
 					))}
 				</div>
 			</div>
