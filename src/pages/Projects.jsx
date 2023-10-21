@@ -98,18 +98,18 @@ const Projects = () => {
 								<div className="font-black text-4xl mb-4 max-w-lg">
 									{project.heading}
 								</div>
-								<p className="text-lg text-gray-500 pb-10 max-w-lg">
+								<p className="text-lg text-gray-500 pb-5 md:pb-10 max-w-lg">
 									{project.description}
 								</p>
 								<Link to={`/project${index + 1}`}>
-									<button className="lg:h-[34px] lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">
+									<button className="lg:h-[34px] p-2 mb-2 lg:w-[140px] bg-gray-200 border-black rounded-lg font-semibold">
 										Read case study
 									</button>
 								</Link>
 								<p className="text-lg text-gray-500 lg:mt-10 lg:pl-6 lg:border-l-2">
 									{project.testimonial}
 								</p>
-								<div className="flex lg:gap-4 lg:pt-10">
+								<div className="flex lg:gap-4 gap-3 pt-6 lg:pt-10">
 									<img
 										src={project.profileImage}
 										alt=""
@@ -135,7 +135,7 @@ const Projects = () => {
 				</div>
 			</div>
 			<div>
-				<div className="bg-[#374151] my-32 lg:-mx-[80px] md:-mx-[40px] -mx-[16px] lg:p-10 mx-0 text-white">
+				<div className="bg-[#374151] my-32 lg:-mx-[80px] md:-mx-[40px] -mx-[16px] lg:p-10 text-white">
 					<div className=" flex md:w-[70%] mx-auto flex-col p-20">
 						<div className="flex gap-2 mb-10">
 							<AiOutlineStar size={25} color="lightBlue" />
