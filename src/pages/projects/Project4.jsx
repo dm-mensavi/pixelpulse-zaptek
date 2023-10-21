@@ -1,5 +1,5 @@
 import React from 'react'
-
+import fourth from '../../public/project4.jpg';
 function Project4() {
   return (
     <div>
