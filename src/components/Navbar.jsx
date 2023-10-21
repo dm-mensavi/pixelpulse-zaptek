@@ -53,17 +53,25 @@ function Navbar() {
 
 			{/* Mobile Dropdown Menu */}
 			<div
-				className={`md:hidden font-semibold flex flex-col space-y-5 absolute top-10 p-10 py-5 
+				className={`md:hidden font-semibold flex flex-col space-y-5 absolute top-10 px-10 py-5 
         bg-white w-[80%] m-5 border border-gray-200 rounded-lg shadow-lg 
         transform ${
 					isMenuOpen
 						? "translate-y-0 transition-transform duration-500 ease-in"
 						: "translate-y-[-150%] transition-transform duration-500 ease-out"
 				}`}>
-				<Link to="/projects">Projects</Link>
-				<Link to="/about">About us</Link>
-				<Link to="/process">Our process</Link>
-				<Link to="/blog">Blog</Link>
+				<Link to="/projects" className="hover:text-blue-500 hover:bg-blue-100 rounded-md px-3 py-2 transition duration-300 ease-in-out">
+          Projects
+        </Link>
+        <Link to="/about" className="hover:text-blue-500 hover:bg-blue-100 rounded-md px-3 py-2 transition duration-300 ease-in-out">
+          About us
+        </Link>
+        <Link to="/process" className="hover:text-blue-500 hover:bg-blue-100 rounded-md px-3 py-2 transition duration-300 ease-in-out">
+          Our process
+        </Link>
+        <Link to="/blog" className="hover:text-blue-500 hover:bg-blue-100 rounded-md px-3 py-2 transition duration-300 ease-in-out">
+          Blog
+        </Link>
 			</div>
 
 			{/* Hamburger Icon */}
