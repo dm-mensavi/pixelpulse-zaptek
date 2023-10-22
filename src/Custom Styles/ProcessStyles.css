@@ -1,0 +1,15 @@
+ * {
+    box-sizing: border-box;
+ }
+
+
+ @media screen and (min-width: 1346px) {
+   .discovery-list,
+   .strategy-list {
+     max-width: 500px;
+   }
+
+   /* .execution-section .section-image {
+      max-width: 400px;
+   } */
+ }
