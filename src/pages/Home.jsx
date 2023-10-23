@@ -215,6 +215,155 @@ const brands = {
 	),
 };
 
+//icons
+const icons = {
+	bulb: (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			//xmlns:xlink="http://www.w3.org/1999/xlink"
+			aria-hidden="true"
+			role="img"
+			class="iconify iconify--ph"
+			width="55%"
+			height="55%"
+			preserveAspectRatio="xMidYMid meet"
+			viewBox="0 0 256 256">
+			<g fill="#7397c0">
+				<path
+					d="M208 104a79.86 79.86 0 0 1-30.59 62.92A24.29 24.29 0 0 0 168 186v6a8 8 0 0 1-8 8H96a8 8 0 0 1-8-8v-6a24.11 24.11 0 0 0-9.3-19A79.87 79.87 0 0 1 48 104.45C47.76 61.09 82.72 25 126.07 24A80 80 0 0 1 208 104Z"
+					opacity=".2"></path>
+				<path d="M176 232a8 8 0 0 1-8 8H88a8 8 0 0 1 0-16h80a8 8 0 0 1 8 8Zm40-128a87.55 87.55 0 0 1-33.64 69.21A16.24 16.24 0 0 0 176 186v6a16 16 0 0 1-16 16H96a16 16 0 0 1-16-16v-6a16 16 0 0 0-6.23-12.66A87.59 87.59 0 0 1 40 104.49C39.74 56.83 78.26 17.14 125.88 16A88 88 0 0 1 216 104Zm-16 0a72 72 0 0 0-73.74-72c-39 .92-70.47 33.39-70.26 72.39a71.65 71.65 0 0 0 27.64 56.3A32 32 0 0 1 96 186v6h64v-6a32.15 32.15 0 0 1 12.47-25.35A71.65 71.65 0 0 0 200 104Zm-16.11-9.34a57.6 57.6 0 0 0-46.56-46.55a8 8 0 0 0-2.66 15.78c16.57 2.79 30.63 16.85 33.44 33.45A8 8 0 0 0 176 104a9 9 0 0 0 1.35-.11a8 8 0 0 0 6.54-9.23Z"></path>
+			</g>
+		</svg>
+	),
+	pencil: (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			//xmlns:xlink="http://www.w3.org/1999/xlink"
+			aria-hidden="true"
+			role="img"
+			class="iconify iconify--ph"
+			width="55%"
+			height="55%"
+			preserveAspectRatio="xMidYMid meet"
+			viewBox="0 0 256 256">
+			<g fill="#7397c0">
+				<path
+					d="M221.66 90.34L192 120l-56-56l29.66-29.66a8 8 0 0 1 11.31 0L221.66 79a8 8 0 0 1 0 11.34Z"
+					opacity=".2"></path>
+				<path d="m227.32 73.37l-44.69-44.68a16 16 0 0 0-22.63 0L36.69 152A15.86 15.86 0 0 0 32 163.31V208a16 16 0 0 0 16 16h44.69a15.86 15.86 0 0 0 11.31-4.69l83.67-83.66l3.48 13.9l-36.8 36.79a8 8 0 0 0 11.31 11.32l40-40a8 8 0 0 0 2.11-7.6l-6.9-27.61L227.32 96a16 16 0 0 0 0-22.63ZM48 208v-28.69L76.69 208Zm48-3.31L51.31 160L136 75.31L180.69 120Zm96-96L147.32 64l24-24L216 84.69Z"></path>
+			</g>
+		</svg>
+	),
+	chart: (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			//xmlns:xlink="http://www.w3.org/1999/xlink"
+			aria-hidden="true"
+			role="img"
+			class="iconify iconify--ph"
+			width="55%"
+			height="55%"
+			preserveAspectRatio="xMidYMid meet"
+			viewBox="0 0 256 256">
+			<g fill="#7397c0">
+				<path d="M128 32v96l-83.14 48A96 96 0 0 1 128 32Z" opacity=".2"></path>
+				<path d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm71.87 53.27L136 114.14V40.37a88 88 0 0 1 63.87 36.9ZM120 40.37v83l-71.89 41.5A88 88 0 0 1 120 40.37ZM128 216a88 88 0 0 1-71.87-37.27l151.76-87.61A88 88 0 0 1 128 216Z"></path>
+			</g>
+		</svg>
+	),
+	lens: (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			//xmlns:xlink="http://www.w3.org/1999/xlink"
+			aria-hidden="true"
+			role="img"
+			class="iconify iconify--ph"
+			width="55%"
+			height="55%"
+			preserveAspectRatio="xMidYMid meet"
+			viewBox="0 0 256 256">
+			<g fill="#7397c0">
+				<path
+					d="M192 112a80 80 0 1 1-80-80a80 80 0 0 1 80 80Z"
+					opacity=".2"></path>
+				<path d="m229.66 218.34l-50.06-50.06a88.21 88.21 0 1 0-11.32 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z"></path>
+			</g>
+		</svg>
+	),
+	string: (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			//xmlns:xlink="http://www.w3.org/1999/xlink"
+			aria-hidden="true"
+			role="img"
+			class="iconify iconify--ph"
+			width="55%"
+			height="55%"
+			preserveAspectRatio="xMidYMid meet"
+			viewBox="0 0 256 256">
+			<g fill="#7397c0">
+				<path
+					d="M224 200a24 24 0 1 1-24-24a24 24 0 0 1 24 24Z"
+					opacity=".2"></path>
+				<path d="M200 168a32.06 32.06 0 0 0-31 24H72a32 32 0 0 1 0-64h96a40 40 0 0 0 0-80H72a8 8 0 0 0 0 16h96a24 24 0 0 1 0 48H72a48 48 0 0 0 0 96h97a32 32 0 1 0 31-40Zm0 48a16 16 0 1 1 16-16a16 16 0 0 1-16 16Z"></path>
+			</g>
+		</svg>
+	),
+	brush: (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			//xmlns:xlink="http://www.w3.org/1999/xlink"
+			aria-hidden="true"
+			role="img"
+			class="iconify iconify--ph"
+			width="55%"
+			height="55%"
+			preserveAspectRatio="xMidYMid meet"
+			viewBox="0 0 256 256">
+			<g fill="#7397c0">
+				<path
+					d="m163.48 131.48l9.21 9.21a16 16 0 0 1 0 22.62L152 184l-80-80l20.69-20.69a16 16 0 0 1 22.62 0l9.21 9.21a8 8 0 0 0 11.61-.32L191 31a24 24 0 0 1 34 34l-61.17 54.9a8 8 0 0 0-.35 11.58Z"
+					opacity=".2"></path>
+				<path d="M230.64 25.36a32 32 0 0 0-45.26 0c-.1.1-.2.2-.29.31l-54.91 61.18l-9.18-9.21a24 24 0 0 0-33.95 0l-76.69 76.7a8 8 0 0 0 0 11.31l80 80a8 8 0 0 0 11.31 0L178.36 169a24 24 0 0 0 0-33.95l-9.21-9.2l61.18-54.91a2.91 2.91 0 0 0 .31-.3a32 32 0 0 0 0-45.28ZM96 228.69L79.32 212l22.34-22.35a8 8 0 0 0-11.31-11.31L68 200.68L55.32 188l22.34-22.35a8 8 0 0 0-11.31-11.31L44 176.68L27.31 160L72 115.31L140.69 184ZM219.46 59.16l-61 54.75a16 16 0 0 0-.62 23.22l9.2 9.21a8 8 0 0 1 0 11.31l-15 15L83.32 104l15-15a8 8 0 0 1 11.31 0l9.21 9.2a16 16 0 0 0 23.22-.62l54.75-61a16 16 0 0 1 22.62 22.62Z"></path>
+			</g>
+		</svg>
+	),
+};
+
+const serviceData = [
+	{
+		icon: icons.bulb,
+		header: "Brand building. ",
+		body: "Crafting memorable brand identities. Connect deeply with audiences and elevate your reputation.",
+	},
+	{
+		icon: icons.pencil,
+		header: "Content creation. ",
+		body: "Telling your story compellingly. Engage, inform, and convert your audience effectively.",
+	},
+	{
+		icon: icons.chart,
+		header: "Social strategy. ",
+		body: "Optimizing social presence. Engage with targeted campaigns and dynamic content.",
+	},
+	{
+		icon: icons.lens,
+		header: "SEO mastery. ",
+		body: "Drive organic traffic. Improve search visibility, increase rankings, and dominate SERPs.",
+	},
+	{
+		icon: icons.string,
+		header: "Ad campaigns. ",
+		body: "Maximize ROI with tailored advertisements. Capture attention, drive sales.",
+	},
+	{
+		icon: icons.brush,
+		header: "Web design. ",
+		body: " Stunning, responsive sites. Enhance user experience, drive conversions, and impress visitors.",
+	},
+];
+
 function Home() {
 	return (
 		<div>
@@ -253,16 +402,55 @@ function Home() {
 			{/* Sponsors */}
 			<h2 className="mb-7 font-bold">Endorsed by global brands and startups</h2>
 			{/* brands */}
-			<div className="flex justify-between mb-10">
+			<div className="flex justify-between mb-20">
 				<div className="flex flex-col md:flex-row justify-start mr-12">
-					<div className="w-full md:p-1 md:mr-12 mb-5 md:mb-0">{brands.brand1}</div>
+					<div className="w-full md:p-1 md:mr-12 mb-5 md:mb-0">
+						{brands.brand1}
+					</div>
 					<div className="w-full md:p-1 ">{brands.brand2}</div>
 				</div>
 				<div className="flex flex-col md:flex-row justify-start">
-					<div className="w-full md:p-1 md:mr-12 mb-5 md:mb-0">{brands.brand3}</div>
+					<div className="w-full md:p-1 md:mr-12 mb-5 md:mb-0">
+						{brands.brand3}
+					</div>
 					<div className="w-full md:p-1 ">{brands.brand4}</div>
 				</div>
 			</div>
+
+			{/* Services */}
+			<section className="our-values py-12 md:lg:py-32 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]">
+				<div className="section-content px-4">
+					<div className="md:px-10 lg:px-20">
+						<h1 className="font-semibold text-xl text-[#93C5FD]">Services</h1>
+
+						<h2 className="text-4xl font-bold mt-4 mb-8 text-[#f3f4f6]">
+							Digital solutions delivered
+						</h2>
+
+						<p className="text-[#f3f4f6] text-lg max-w-xl">
+							Expert strategies tailored for your business. Experience growth,
+							innovation, and increased market presence.
+						</p>
+
+						<div className="values-container mt-12 flex justify-center items-center">
+							<div className="grid grid-cols-1 gap-10 md:grid-cols-2 text-lg">
+								{serviceData.map((service, index) => (
+									<div className="flex flex-row mt-3 text-[#d1d5db]" key={index}>
+										<span className="w-[60%] md:w-[50%] lg:w-[40%] lg:-mr-[7%] xl:-mr-[10%] -mr-[5%] sm:w-[20%] sm:-mr-[0]">{service.icon}</span>
+										<div>
+
+										<span className="font-bold text-[#f3f4f6]">
+											{service.header}
+										</span>
+										{service.body}
+										</div>
+									</div>
+								))}
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 }
