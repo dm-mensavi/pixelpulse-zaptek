@@ -2,6 +2,7 @@ import discoveryImage from '../public/Discovery.webp'
 import '../Custom Styles/ProcessStyles.css'
 import executionImage from '../public/Execution.webp'
 import james from '../public/James.webp'
+import RenderSVG from '../components/RenderSVG'
 
 
 function Process() {
@@ -198,53 +199,6 @@ function Process() {
   ];
    
 
-  const renderProcessDescriptionList = (processList, processType) => {
-    return (
-      processList.map((list, index) => {
-
-        const bgColor = processType === 'strategy' ? 'bg-[#DBEAFE] p-2' : ''
-        const gap = processType === 'discovery' ? 'gap-0' : 'gap-5'
-        const alignItems = processType === 'discovery' ? 'items-start' : 'items-center'
-
-        return (
-          <div 
-            key={list.header} 
-            className={`${processType}-list flex justify-start ${gap} items-start`}
-          >
-            <figure className={`w-16`}>
-              <div className={`${bgColor} rounded-md h-11 w-11 flex justify-center ${alignItems}`}>
-                {list.icon}
-              </div>
-            </figure>
-
-            { processType === 'discovery' &&
-              <div>
-                <p className='text-gray-500'>
-                  <b className='text-black'>
-                    {list.header}
-                  </b>
-                  {list.description}
-                </p>
-              </div>
-            }
-
-            {
-             processType === 'strategy' &&
-              <div>
-                <h4 className='mb-2 font-bold text-[#f3f4f6]'>
-                  {list.header}
-                </h4>
-                <p className='text-[#d1d5db]'>
-                  {list.description}
-                </p>
-              </div>
-            }
-          </div>
-        )
-      })
-    )
-  }
-
   return (
     <div className='process'>
       <section 
@@ -284,7 +238,7 @@ function Process() {
               <hr className='my-10'></hr>
 
               <div className='discovery-decsription-container flex flex-col gap-10 text-lg'>
-                {renderProcessDescriptionList(discoveryList, 'discovery')}
+                {RenderSVG(discoveryList, 'discovery')}
               </div>
 
             </div>
@@ -321,7 +275,7 @@ function Process() {
 
             <div className='flex justify-center items-center mt-12'>
               <div className='discovery-decsription-container mt-12 grid grid-cols-1 md:lg:grid-cols-2 md:lg:gap-14 gap-10 text-lg'>
-                {renderProcessDescriptionList(strategyList, 'strategy')}
+                {RenderSVG(strategyList, 'strategy')}
               </div>
             </div>
 
