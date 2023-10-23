@@ -14,7 +14,6 @@ const Loading = ({comp}) => {
     },[])
   return (
     <div className={`flex justify-center items-center m-[${margin}%]`}>
-    {/* // <div className={`flex justify-center items-center m-[25%]`}> */}
 
         {
             loading ?   <ClipLoader
