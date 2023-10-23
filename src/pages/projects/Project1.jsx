@@ -1,10 +1,6 @@
 import React from 'react'
-<<<<<<< projects
 import first from '../../public/project1.jpg';
 import mic from '../../public/James.webp'
-=======
-import first from '../../assets/1.jpg';
->>>>>>> projects
 
 function Project1() {
   return (
@@ -32,7 +28,7 @@ function Project1() {
       <div className='lg:pt-20'>
       <img src={first} alt="strategy" className='rounded-3xl' />
       </div>
-<<<<<<< projects
+
       <div className='lg:pl-48 lg:pr-52'>
       <div className='lg:pt-10'>
         <h3 className='font-bold text-3xl'>Overview</h3>
@@ -133,7 +129,6 @@ function Project1() {
         <h1 className='font-semibold text-4xl'>95%</h1>
         <p className='text-gray-500 text-lg'>Sentiment increase</p>
       </div>
-=======
       <div className='lg:pt-10'>
         <h3 className='font-bold text-3xl'>Overview</h3>
         <p>At PixelPulse, we embark on exciting journeys with our clients to transform their digital presence. Our latest project with Green Eco showcases our commitment to delivering outstanding results in the ever-evolving landscape of digital marketing and web development.</p>
@@ -218,9 +213,9 @@ function Project1() {
       <div>
         <h1>95%</h1>
         <p>Sentiment increase</p>
->>>>>>> projects
       </div>
       </div>
+    </div>
     </div>
   )
 }
