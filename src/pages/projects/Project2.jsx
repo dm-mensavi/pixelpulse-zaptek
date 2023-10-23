@@ -1,5 +1,7 @@
+
+import React from 'react'
+import second from '../../public/project2.jpg'
 import React from 'react';
-import second from '../../assets/2.jpg';
 
 function Project2() {
   return (
@@ -37,11 +39,19 @@ function Project2() {
       </div>
       <div>
         <h3>Goals</h3>
+
+        <p className='text-normal'>The primary goals of this project were:</p>
+        <ul>
+          <li><p className='font-semibold text-lg'>Increase Online Visibility: <span className='text-gray-500 text-lg font-normal'>Boost TechInnovators Inc.'s organic search rankings to appear prominently in relevant search results.</span></p></li>
+          <li><p className='font-semibold text-lg'>Drive Traffic and Engagement: <span className='text-gray-500 text-lg font-normal'>Enhance website traffic and user engagement through improved content and user experience.</span></p></li>
+          <li><p className='font-semibold text-lg'>Generate Quality Leads: <span className='text-gray-500 text-lg font-normal'>Attract and nurture high-quality leads interested in TechInnovators Inc.'s services.</span></p></li>
+
         <p>The primary goals of this project were:</p>
         <ul>
           <li><p>Increase Online Visibility: <span>Boost TechInnovators Inc.'s organic search rankings to appear prominently in relevant search results.</span></p></li>
           <li><p>Drive Traffic and Engagement: <span>Enhance website traffic and user engagement through improved content and user experience.</span></p></li>
           <li><p>Generate Quality Leads: <span>Attract and nurture high-quality leads interested in TechInnovators Inc.'s services.</span></p></li>
+projects
         </ul>
       </div>
       <div>
