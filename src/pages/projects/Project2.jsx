@@ -37,7 +37,7 @@ function Project2() {
       </div>
       <div>
         <h3>Goals</h3>
-        <p>The primary goals of this project were:</p>
+        <p className='text-normal'>The primary goals of this project were:</p>
         <ul>
           <li><p className='font-semibold text-lg'>Increase Online Visibility: <span className='text-gray-500 text-lg font-normal'>Boost TechInnovators Inc.'s organic search rankings to appear prominently in relevant search results.</span></p></li>
           <li><p className='font-semibold text-lg'>Drive Traffic and Engagement: <span className='text-gray-500 text-lg font-normal'>Enhance website traffic and user engagement through improved content and user experience.</span></p></li>
