@@ -5,7 +5,7 @@ import blogpic3 from "../assets/blog3pic.jpg";
 
 const Article = () => {
 	return (
-		<div className="bg-[#374151] text-white py-20">
+		<div className="bg-[#374151] text-white py-20 max-w-[1900] -mx-4 md:-mx-10 lg:-mx-20 px-20 items-center space-y-10">
 			<div>
 				<h1 className="text-5xl font-bold py-3">More articles</h1>
 				<p className="text-xl text-gray-400 pb-16">
