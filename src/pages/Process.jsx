@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
 import discoveryImage from '../public/Discovery.webp'
 import '../Custom Styles/ProcessStyles.css'
 import executionImage from '../public/Execution.webp'
+import james from '../public/James.webp'
 
 
 function Process() {
@@ -9,7 +9,6 @@ function Process() {
     {
       'header': 'Deep dive.',
       'description': ' In-depth brand and market analysis ensures precise targeting.',
-      'image': "<img src=`{}` alt='deep dive icon'/>",
       'icon': (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +194,7 @@ function Process() {
     {
       header: "Results-Driven",
       body: "Our focus remains on delivering tangible results, maximizing ROI for every client.",
-    },
+    }
   ];
    
 
@@ -210,11 +209,7 @@ function Process() {
         return (
           <div 
             key={list.header} 
-            className={`
-              ${processType}-list
-              flex justify-start 
-              ${gap} items-start
-              `}
+            className={`${processType}-list flex justify-start ${gap} items-start`}
           >
             <figure className={`w-16`}>
               <div className={`${bgColor} rounded-md h-11 w-11 flex justify-center ${alignItems}`}>
@@ -250,8 +245,6 @@ function Process() {
     )
   }
 
-  console.log('process');
-
   return (
     <div className='process'>
       <section 
@@ -274,7 +267,7 @@ function Process() {
 
       <section className='md:lg:lg:py-32 py-12'>
         <div className='section-content min-w-full'>
-          <div className='grid justify-between gap-12 md:grid-cols-2 md:gap-20 max-w-5xl min-w-full'>
+          <div className='grid justify-between gap-12 md:grid-cols-2 md:gap-15 lg:gap-20 max-w-5xl min-w-full'>
             <div>
               <h1 className='text-black font-semibold text-xl'>
                 01.
@@ -304,7 +297,7 @@ function Process() {
       </section>
 
       <section 
-        className='md:lg:lg:py-32 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
+        className='md:lg:py-32 md:px-10 md:py-12 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
       >
         <div 
           className='section-content px-4'
@@ -343,7 +336,7 @@ function Process() {
               <img src={executionImage} alt='happy people' className='w-full h-full object-cover'/>
             </figure>
             
-            <div>
+            <div className='text-gray-500'>
               <h1 className='text-black font-semibold text-xl'>
                 03.
               </h1>
@@ -352,16 +345,28 @@ function Process() {
                 Execution 
               </h2>
               
-              <p className='text-lg text-gray-500'>
+              <p className='text-lg'>
                 Upon strategy approval, we deploy our resources, ensuring flawless implementation and real-time monitoring for continued success.
               </p>
 
-              <p className='mt-5 text-lg text-gray-500'>
+              <p className='mt-5 text-lg'>
                 Consistent communication and transparent reporting guarantee that our clients remain integral parts of the execution journey.
               </p>
 
-              <div>
-
+              <div className='testimony-box mt-5'>
+                <div className='testimony-text border-l border-gray-500 px-5 py-1'>
+                  "The meticulous execution by PixelPulse transformed our digital outreach, exceeding expectations."
+                </div>
+                <div className='testifier-profile flex justify-start items-center mt-5'>
+                  <figure className='w-7 h-7 overflow-hidden rounded-full'>
+                    <img src={james} alt='James Whitaker'/>
+                  </figure>
+                  <div>
+                    <p className='text-sm ml-3'>
+                      <b>James Whitaker</b> &ndash; Whitaker Enterprise
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
