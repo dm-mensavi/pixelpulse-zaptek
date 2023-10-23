@@ -1,5 +1,6 @@
 import React from 'react'
 import third from '../../public/project3.jpg'
+
 function Project3() {
   return (
     <div>
@@ -31,9 +32,15 @@ function Project3() {
           <h3>Challenges faced</h3>
           <p>TechInnovators Inc. approached us with a set of challenges that resonated with many businesses aiming to thrive in the digital era:</p>
           <ol>
+
             <li className='font-semibold text-lg'>Limited Online Visibility: <span className='text-gray-500 text-lg font-normal'>Despite offering cutting-edge solutions, TechInnovators Inc. struggled to gain a strong online presence. Their website wasn't receiving the attention it deserved.</span></li>
             <li className='font-semibold text-lg'>Keyword Rankings: <span className='text-gray-500 text-lg font-normal'>Critical industry keywords failed to place TechInnovators Inc. in top search results, resulting in missed opportunities for organic traffic.</span></li>
             <li className='font-semibold text-lg'>Conversion Rates: <span className='text-gray-500 text-lg font-normal'>While they had a steady stream of visitors, their website wasn't effectively converting these visitors into clients.</span></li>
+
+            <li>Limited Online Visibility: <span>Despite offering cutting-edge solutions, TechInnovators Inc. struggled to gain a strong online presence. Their website wasn't receiving the attention it deserved.</span></li>
+            <li>Keyword Rankings: <span>Critical industry keywords failed to place TechInnovators Inc. in top search results, resulting in missed opportunities for organic traffic.</span></li>
+            <li>Conversion Rates: <span>While they had a steady stream of visitors, their website wasn't effectively converting these visitors into clients.</span></li>
+
           </ol>
           <div>
             <h3>Objectives</h3>
