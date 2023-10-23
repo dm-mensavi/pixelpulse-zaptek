@@ -72,7 +72,7 @@ const Projects = () => {
 			<div className="lg:pt-20">
 				<div className="lg:h-[300px] lg:w-[872px] flex-col gap-y-6">
 					<h1 className="text-base font-semibold text-[#1d4ed8] mb-3">Projects</h1>
-					<h1 className="font-bold text-4xl md:text-6xl mb-3">
+					<h1 className="font-extrabold text-4xl md:text-6xl mb-3">
 						Showcasing our digital excellence
 					</h1>
 					<p className="text-lg text-gray-500">
