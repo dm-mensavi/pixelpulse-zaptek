@@ -436,7 +436,7 @@ function Home() {
 							<div className="grid grid-cols-1 gap-10 md:grid-cols-2 text-lg">
 								{serviceData.map((service, index) => (
 									<div className="flex flex-row mt-3 text-[#d1d5db]" key={index}>
-										<span className="w-[60%] md:w-[50%] lg:w-[40%] lg:-mr-[7%] xl:-mr-[10%] -mr-[5%] sm:w-[20%] sm:-mr-[0]">{service.icon}</span>
+										<span className="w-[60%] md:w-[50%] lg:w-[30%] lg:-mr-[7%] xl:-mr-[10%] -mr-[5%] sm:w-[20%] sm:-mr-[0]">{service.icon}</span>
 										<div>
 
 										<span className="font-bold text-[#f3f4f6]">
