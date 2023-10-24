@@ -204,7 +204,7 @@ function Process() {
         className='pt-32'
       >
         <div className='section-content max-w-2xl'>
-          <h1 className='text-blue-800 font-bold text-base'>
+          <h1 className='text-blue-800 font-bold text-base md:text-lg lg:text-xl'>
             Our Process
           </h1>
 
@@ -226,7 +226,7 @@ function Process() {
                 01.
               </h1>
 
-              <h2 className='text-black text-4xl font-bold mt-4 mb-8'>
+              <h2 className='text-black text-3xl lg:text-4xl font-bold mt-4 mb-8'>
                 Discovery 
               </h2>
               
@@ -257,12 +257,12 @@ function Process() {
         >
           <div className=''>
             <div className='section-header md:lg:text-center flex justify-center items-center'>
-              <div className='md:lg:max-w-lg'>
+              <div className='md:lg:max-w-xl'>
                 <h1 className='font-semibold text-xl'>
                   02.
                 </h1>
 
-                <h2 className='text-4xl font-bold mt-4 mb-8'>
+                <h2 className='text-3xl lg:text-4xl font-bold mt-4 mb-8'>
                   Strategy 
                 </h2>
                 
@@ -294,7 +294,7 @@ function Process() {
                 03.
               </h1>
 
-              <h2 className='text-black text-4xl font-bold mt-4 mb-8'>
+              <h2 className='text-black text-3xl lg:text-4xl font-bold mt-4 mb-8'>
                 Execution 
               </h2>
               
@@ -335,15 +335,15 @@ function Process() {
               Our values 
             </h1>
 
-            <h2 className='text-4xl font-bold mt-4 mb-8 text-[#f3f4f6]'>
+            <h2 className='text-3xl lg:text-4xl font-bold mt-4 mb-8 text-[#f3f4f6]'>
               Guiding every digital step
             </h2>
             
-            <p className='text-[#f3f4f6] text-lg'>
+            <p className='text-[#f3f4f6] text-lg md:lg:max-w-2xl'>
             These core beliefs underpin every decision, project, and relationship at PixelPulse, ensuring consistency and excellence.
             </p>
 
-          <div className='values-container mt-12 flex justify-center items-center'>
+          <div className='values-container mt-16 flex justify-center items-center'>
             <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 text-lg'>
               {values.map(value => (
                 <div className='value' key={value.header}>
@@ -359,6 +359,20 @@ function Process() {
             </div>
           </div>
 
+          </div>
+        </div>
+      </section>
+
+      <section className='blog-section'>
+        <div className='section-content'>
+          <div className='section-header'>
+            <h2>
+              Latest blog articles
+            </h2>
+
+            <p className=''>
+              Discover insights, trends, and strategies shaping the digital marketing landscape.
+            </p>
           </div>
         </div>
       </section>
