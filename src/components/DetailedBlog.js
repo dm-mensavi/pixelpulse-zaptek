@@ -72,7 +72,7 @@ const DetailedBlog = ({ image, title, name }) => {
 									<h1 className="text-3xl font-bold py-10">
 										Strategies for Email Marketing Success
 									</h1>
-									<ul>
+									<ul className="px-10">
 										<li className="list-decimal font-bold text-xl pb-8">
 											{" "}
 											Build a Quality Email List
