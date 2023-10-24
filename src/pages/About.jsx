@@ -10,8 +10,7 @@ import aisha from '../public/Emily.webp'
 import sarah from '../public/Olivia.webp'
 import leo from '../public/Nathaniel.webp'
 
-function About() {
-  const milestones = [
+const milestones = [
     {
       date: 'September 2020',
       event: 'Launch beginnings',
@@ -260,14 +259,8 @@ function About() {
       answer: "We provide both short-term and long-term options. However, some strategies benefit from extended periods to achieve desired results and consistency.",
     },
   ];
-  
-  
-  
-  
-  
 
-  
-
+function About() {
   return (
     <div className='about-page'>
 
