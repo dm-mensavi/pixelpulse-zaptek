@@ -30,7 +30,7 @@ const RenderSVG = (processList, processType) => {
             }
 
             {
-             processType === 'strategy' &&
+             (processType === 'strategy' || processType === 'culture') &&
               <div>
                 <h4 className='mb-2 font-bold text-[#f3f4f6]'>
                   {list.header}
