@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Custom Styles/AboutStyles.css'
 import RenderSVG from '../components/RenderSVG';
-/* import RenderProfileInfo from '../components/RenderProfileInfo'; */
 import ProfileCard from '../components/ProfileCard';
+import { Link } from "react-router-dom";
 import johnDoe from '../public/David.webp'
 import olivia from '../public/Sarah.webp'
 import jake from '../public/James.webp'
@@ -198,6 +198,7 @@ function About() {
   const blogPosts = [
     {
       id: "der98eiheui",
+      page: '/blog1',
       title: "Mastering the art of email marketing",
       date: "Sep 13, 2023",
       content: "Unlock the secrets to email marketing success with proven strategies and tips for engaging your audience effectively.",
@@ -209,6 +210,7 @@ function About() {
     },
     {
       id: "hfyue8rru",
+      page: '/blog2',
       title: "The power of visual storytelling online",
       date: "Sep 19, 2023",
       content: "Explore the impact of visual storytelling in digital content and learn how to leverage its potential.",
@@ -220,6 +222,7 @@ function About() {
     },
     {
       id: "huyu8r9uhwd",
+      page: '/blog3',
       title: "The art of crafting compelling content",
       date: "Sep 13, 2023",
       content: "Unlock the secrets to crafting content that captivates your audience and drives meaningful engagement.",
@@ -489,23 +492,25 @@ function About() {
               <div className='blog-cards-container lg:grid-cols-3 grid gap-16 text-[#404040] text-lg'>
                 {
                   blogPosts.map(blog => (
-                    <div className='blog-card'>
-                      <div>
-                        <h4 className='text-sm'>
-                          {blog.date}
-                        </h4>
+                    <Link to={blog.page}>
+                      <div className='blog-card'>
+                        <div>
+                          <h4 className='text-sm'>
+                            {blog.date}
+                          </h4>
 
-                        <h3 className='mt-2 text-black font-bold text-lg'>
-                          {blog.title}
-                        </h3>
+                          <h3 className='mt-2 text-black font-bold text-lg'>
+                            {blog.title}
+                          </h3>
 
-                        <p className='my-5 text-[1rem]'>
-                          {blog.content}
-                        </p>
+                          <p className='my-5 text-[1rem]'>
+                            {blog.content}
+                          </p>
 
-                        <ProfileCard profileInfo={blog.author} nameColor='text-black' jobColor='text-[#404040]' />
+                          <ProfileCard profileInfo={blog.author} nameColor='text-black' jobColor='text-[#404040]' />
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   ))
                 }
               </div>
