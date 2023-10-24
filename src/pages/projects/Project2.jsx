@@ -1,7 +1,6 @@
 
 import React from 'react'
-import second from '../../public/project2.jpg'
-import React from 'react';
+import second from '../../public/project2.jpg';
 
 function Project2() {
   return (
