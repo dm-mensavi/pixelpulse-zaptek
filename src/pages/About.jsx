@@ -278,7 +278,7 @@ function About() {
                 About us
             </h1>
 
-            <h2 className='text-black text-4xl md:lg:text-6xl md:mb-12 lg:max-w-4xl font-bold mt-4 mb-6'>
+            <h2 className='text-black text-4xl md:lg:text-6xl md:mb-12 lg:max-w-4xl font-extrabold mt-4 mb-6'>
               Innovative digital marketing, passionately delivered
             </h2>
 
