@@ -14,8 +14,8 @@ const Article = () => {
 				<hr />
 			</div>
 
-			<div className="grid grid-cols-3 pt-16">
-				<div>
+			<div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 pt-16 gap-x-5">
+				<div className="pb-16">
 					<p className="text-sm">Sep 13, 2023</p>
 					<p className="pb-8 pt-3 font-bold text-xl">
 						Mastering the art of email marketing
@@ -33,7 +33,7 @@ const Article = () => {
 					</div>
 				</div>
 
-				<div>
+				<div className="pb-16">
 					<p className="text-sm">Sep 13, 2023</p>
 					<p className="pb-8 pt-3 font-bold text-xl">
 						The art of crafting compelling content
@@ -51,7 +51,7 @@ const Article = () => {
 					</div>
 				</div>
 
-				<div>
+				<div className="pb-16">
 					<p className="text-sm">Sep 13, 2023</p>
 					<p className="pb-8 pt-3 font-bold text-xl">
 						Effective strategies for boosting online engagement
