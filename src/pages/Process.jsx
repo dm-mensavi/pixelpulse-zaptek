@@ -205,7 +205,7 @@ function Process() {
         className='pt-32'
       >
         <div className='section-content max-w-2xl'>
-          <h1 className='text-blue-800 font-semibold text-xl'>
+          <h1 className='text-blue-800 font-bold text-base'>
             Our Process
           </h1>
 

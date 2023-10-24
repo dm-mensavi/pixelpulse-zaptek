@@ -49,7 +49,7 @@ function Newsletter() {
 			<div className="px-0 lg:px-32 py-10 lg:py-20">
 				<div className="bg-[#374151] w-full  rounded-3xl">
 					<div className="max-w-xl mx-auto py-6 lg:py-10 p-7 text-center">
-						<h1 className="text-white text-2xl pt-3 lg:text-4xl font-bold mb-7">
+						<h1 className="text-white text-2xl pt-8 lg:text-4xl font-bold mb-7">
 							Subscribe to our newsletter
 						</h1>
 						<p className="text-gray-300 text-normal mb-8">
