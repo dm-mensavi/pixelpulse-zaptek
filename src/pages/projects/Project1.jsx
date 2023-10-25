@@ -1,6 +1,6 @@
-import React from 'react'
-import first from '../../public/project1.jpg';
-import mic from '../../public/James.webp'
+import React from "react";
+import first from "../../public/project1.jpg";
+import mic from "../../public/James.webp";
 
 function Project1() {
   return (
@@ -133,6 +133,7 @@ function Project1() {
       </div>
     </div>
   )
+
 }
 
-export default Project1
+export default Project1;

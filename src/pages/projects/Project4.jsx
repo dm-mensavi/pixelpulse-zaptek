@@ -1,44 +1,76 @@
-import React from 'react'
-import fourth from '../../public/project4.jpg';
+import React from "react";
+import fourth from "../../public/project4.jpg";
 
 function Project4() {
-  return (
-    <div>
-      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
-        <div>
-          <h3>Case study</h3>
-          <h2>SEO revamp drives skyrocketing traffic</h2>
-          <p>Discover how TechInnovators Inc. partnered with PixelPulse to revitalize their online presence and achieve remarkable growth through SEO optimization.</p>
-          <div>
-            <div>
-              <h4>Client</h4>
-              <p>Tech Innovators</p>
-            </div>
-            <div>
-              <h4>Year</h4>
-              <p>April 2022</p>
-            </div>
-            <div>
-              <h4>Service</h4>
-              <p>SEO Optimization</p>
-            </div>
-          </div>
-          <div>
-            <img src={fourth} alt="strategy" className='rounded-3xl' />
-          </div>
+	return (
+		<div>
+			<div className="lg:pt-40">
+				<div>
+					<h3>Case study</h3>
+					<h2>SEO revamp drives skyrocketing traffic</h2>
+					<p>
+						Discover how TechInnovators Inc. partnered with PixelPulse to
+						revitalize their online presence and achieve remarkable growth
+						through SEO optimization.
+					</p>
+					<div>
+						<div>
+							<h4>Client</h4>
+							<p>Tech Innovators</p>
+						</div>
+						<div>
+							<h4>Year</h4>
+							<p>April 2022</p>
+						</div>
+						<div>
+							<h4>Service</h4>
+							<p>SEO Optimization</p>
+						</div>
+					</div>
+					<div>
+						<img src={fourth} alt="strategy" className="rounded-3xl" />
+					</div>
           <div className='lg:pl-32 lg:pr-32'>
-          <div>
-            <h3>Introduction</h3>
-            <p>TechInnovators Inc., a dynamic tech firm, was facing a common yet critical challenge in today's digital landscape - low online visibility. Despite their remarkable innovations and cutting-edge solutions, their online presence didn't reflect their true potential. That's when TechInnovators Inc. reached out to PixelPulse for a transformative journey in SEO optimization.</p>
-          </div>
-          <div>
-            <h3>Challenges</h3>
-            <p>TechInnovators Inc. had a groundbreaking portfolio of tech solutions but struggled to reach their target audience effectively. The challenges were clear:</p>
-            <ul>
-
-              <li className='font-semibold text-lg'>Low Organic Traffic: <span className='text-gray-500 text-lg font-normal'>Their website wasn't attracting sufficient organic traffic, limiting their exposure to potential clients.</span></li>
-              <li className='font-semibold text-lg'>Keyword Ranking: <span className='text-gray-500 text-lg font-normal'>Important industry-specific keywords weren't ranking well on search engine results pages (SERPs).</span></li>
-              <li className='font-semibold text-lg'>Conversion Rate: <span className='text-gray-500 text-lg font-normal'>The website's conversion rate needed improvement, as visitors weren't engaging as expected.</span></li>
+					<div>
+						<h3>Introduction</h3>
+						<p>
+							TechInnovators Inc., a dynamic tech firm, was facing a common yet
+							critical challenge in today's digital landscape - low online
+							visibility. Despite their remarkable innovations and cutting-edge
+							solutions, their online presence didn't reflect their true
+							potential. That's when TechInnovators Inc. reached out to
+							PixelPulse for a transformative journey in SEO optimization.
+						</p>
+					</div>
+					<div>
+						<h3>Challenges</h3>
+						<p>
+							TechInnovators Inc. had a groundbreaking portfolio of tech
+							solutions but struggled to reach their target audience
+							effectively. The challenges were clear:
+						</p>
+						<ul>
+							<li className="font-semibold text-lg">
+								Low Organic Traffic:{" "}
+								<span className="text-gray-500 text-lg font-normal">
+									Their website wasn't attracting sufficient organic traffic,
+									limiting their exposure to potential clients.
+								</span>
+							</li>
+							<li className="font-semibold text-lg">
+								Keyword Ranking:{" "}
+								<span className="text-gray-500 text-lg font-normal">
+									Important industry-specific keywords weren't ranking well on
+									search engine results pages (SERPs).
+								</span>
+							</li>
+							<li className="font-semibold text-lg">
+								Conversion Rate:{" "}
+								<span className="text-gray-500 text-lg font-normal">
+									The website's conversion rate needed improvement, as visitors
+									weren't engaging as expected.
+								</span>
+							</li>
 
               <li>Low Organic Traffic: <span>Their website wasn't attracting sufficient organic traffic, limiting their exposure to potential clients.</span></li>
               <li>Keyword Ranking: <span>Important industry-specific keywords weren't ranking well on search engine results pages (SERPs).</span></li>
@@ -160,6 +192,5 @@ function Project4() {
       </div>
     </div>
   )
-}
-
-export default Project4
+  }
+export default Project4;

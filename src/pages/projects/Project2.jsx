@@ -1,4 +1,3 @@
-
 import React from 'react'
 import second from '../../public/project2.jpg';
 import sara from '../../public/Sarah.webp'
@@ -162,6 +161,7 @@ function Project2() {
       </div>
     </div>
   )
+
 }
 
-export default Project2
+export default Project2;
