@@ -30,7 +30,7 @@ function Project2() {
       <img src={second} alt="strategy" className='rounded-3xl' />
       </div>
       </div>
-      <div className='lg:pl-32 lg:pr-32 lg:pt-6'>
+      <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-6'>
       <div>
         <h3 className='font-bold text-3xl text-gray-600'>Overview</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>In this comprehensive case study, we dive deep into a project that exemplifies PixelPulse's ability to transform a client's online presence through strategic Search Engine Optimization (SEO) techniques. The client, TechInnovators Inc., approached us with the goal of redefining their digital footprint and establishing themselves as a frontrunner in their industry.</p>

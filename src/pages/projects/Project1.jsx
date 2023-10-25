@@ -83,7 +83,7 @@ function Project1() {
       </div>
       <div className='lg:pt-16'>
         <h3 className='font-bold text-3xl'>What we did</h3>
-        <div className='flex grid lg:grid-cols-3 lg:pt-2'>
+        <div className='grid lg:grid-cols-3 lg:pt-2'>
           <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
           <p className='text-lg text-center lg:font-semibold lg:pt-2'>Market analysis</p>
           </div>
