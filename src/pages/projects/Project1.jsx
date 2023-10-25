@@ -5,7 +5,7 @@ import mic from '../../public/James.webp'
 function Project1() {
   return (
     <div>
-      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
+      <div className="lg:pr-16 lg:pl-16 lg:pt-40">
       <div className='border-b text-center'>
       <h3 className='font-semibold text-base'>Case study</h3>
       <h1 className='font-bold text-4xl lg:pt-6'>Strategic consultation boosts market impact</h1>
@@ -54,7 +54,7 @@ function Project1() {
       <div className='lg:pt-6'>
         <h3 className='font-bold text-3xl'>Our approach</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>To meet Green Eco's goals effectively, we implemented a multifaceted approach, including:</p>
-        <ol type='1'>
+        <ol>
           <li className='font-bold text-2xl lg:pt-4'>1. In-depth SEO optimization</li>
           <p className='text-gray-500 text-lg lg:pt-4'>We conducted extensive keyword research, identifying high-impact keywords relevant to Green Eco's industry. This laid the foundation for optimizing their website content and meta tags, significantly improving search engine rankings.</p>
           <li className='font-bold text-2xl lg:pt-4'>2. Content strategy and creation</li>
@@ -87,33 +87,34 @@ function Project1() {
           <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
           <p className='text-lg text-center lg:font-semibold lg:pt-2'>Market analysis</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
+          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 ml-2'>
           <p className='text-lg text-center lg:font-semibold lg:pt-2'>Competitor research</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
+          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] ml-8 lg:mt-4'>
           <p className='text-lg text-center lg:font-semibold lg:pt-2'>Content strategy</p>
           </div>
           <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
           <p className='text-lg text-center lg:font-semibold lg:pt-2'>Campaign execution</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-56 bg-[#F3F4F6] lg:mt-4'>
+          <div className='lg:h-10 rounded-md lg:w-56 bg-[#F3F4F6] lg:mt-4 ml-6'>
           <p className='text-lg text-center lg:font-semibold lg:pt-2'>Social media optimization</p>
           </div>
         </div>
       </div>
       <div className='lg:pt-6'>
       </div>
-        <div className='flex gap-4 lg:pt-28 lg:w-96'>
+        <div className='flex gap-6 lg:pt-28 lg:w-[700px]'>
         <img src={mic} className='lg:h-72 rounded-2xl' alt="mic" />
         <div>
-          <p className='font-semibold text-3xl'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
-          <p className='lg:pt-2 font-bold text-xl'>Michael Turner</p>
+          <p className='font-semibold text-3xl lg:pt-4'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
+          <p className='lg:pt-2 font-bold text-xl lg:pt-8'>Michael Turner</p>
           <p className='text-lg text-gray-400'>Marketing Director</p>
         </div>
         </div>
       </div>
-      <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-12 lg:pb-14'>
-      <div className=''>
+    </div>
+    <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-32 lg:pb-14'>
+      <div>
         <h1 className='font-semibold text-4xl'>300%</h1>
         <p className='text-gray-500 text-lg'>Brand awareness</p>
       </div>
@@ -130,7 +131,6 @@ function Project1() {
         <p className='text-gray-500 text-lg'>Sentiment increase</p>
       </div>
       </div>
-    </div>
     </div>
   )
 }

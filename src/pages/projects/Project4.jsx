@@ -26,6 +26,7 @@ function Project4() {
           <div>
             <img src={fourth} alt="strategy" className='rounded-3xl' />
           </div>
+          <div className='lg:pl-32 lg:pr-32'>
           <div>
             <h3>Introduction</h3>
             <p>TechInnovators Inc., a dynamic tech firm, was facing a common yet critical challenge in today's digital landscape - low online visibility. Despite their remarkable innovations and cutting-edge solutions, their online presence didn't reflect their true potential. That's when TechInnovators Inc. reached out to PixelPulse for a transformative journey in SEO optimization.</p>
@@ -90,8 +91,8 @@ function Project4() {
               <li>Ensuring each page had a clear call-to-action (CTA).</li>
             </ul>
           </div>
-          <div>
-            <h3>Results</h3>
+          <div className='lg:pt-8'>
+            <h3 className='font-bold text-3xl'>Results</h3>
             <p>The partnership between TechInnovators Inc. and PixelPulse produced remarkable results:</p>
             <h4>Traffic increase by 200%</h4>
             <p>TechInnovators Inc. experienced a substantial surge in organic traffic, allowing them to reach a wider audience.</p>
@@ -102,46 +103,57 @@ function Project4() {
             <h4>Bounce rate reduced by 90%</h4>
             <p>PixelPulse's optimization efforts resulted in a remarkable 90% reduction in bounce rate, indicating that visitors were staying on the site longer and exploring more content.</p>
           </div>
-          <div>
-            <h3>Conclusion</h3>
-            <p>TechInnovators Inc.'s journey with PixelPulse resulted in a complete transformation of their online presence. By aligning SEO strategies with the company's goals and values, PixelPulse achieved outstanding results in traffic, keyword rankings, conversion rate, and bounce rate reduction.</p>
-            <p>This case study showcases how a strategic partnership with an experienced SEO optimization agency like PixelPulse can revolutionize a company's digital footprint and open doors to new opportunities. TechInnovators Inc. now stands as a testament to the power of tailored SEO solutions in a competitive digital landscape.</p>
-            <p>At PixelPulse, we continue to drive exceptional results for clients across various industries. Explore more of our case studies to witness the transformative impact we bring to businesses like yours.</p>
+          <div className='lg:pt-6'>
+            <h3 className='font-bold text-3xl'>Conclusion</h3>
+            <p className='text-gray-500 text-lg lg:pt-4'>TechInnovators Inc.'s journey with PixelPulse resulted in a complete transformation of their online presence. By aligning SEO strategies with the company's goals and values, PixelPulse achieved outstanding results in traffic, keyword rankings, conversion rate, and bounce rate reduction.</p>
+            <p className='text-gray-500 text-lg lg:pt-4'>This case study showcases how a strategic partnership with an experienced SEO optimization agency like PixelPulse can revolutionize a company's digital footprint and open doors to new opportunities. TechInnovators Inc. now stands as a testament to the power of tailored SEO solutions in a competitive digital landscape.</p>
+            <p className='text-gray-500 text-lg lg:pt-4'>At PixelPulse, we continue to drive exceptional results for clients across various industries. Explore more of our case studies to witness the transformative impact we bring to businesses like yours.</p>
           </div>
-          <div>
-        <h3>What we did</h3>
-        <div>
-          <p>Keyword research</p>
-          <p>Content optimization</p>
-          <p>Technical SEO audit</p>
-          <p>Competitor analysis</p>
-          <p>On-page SEO</p>
+          <div className='lg:pt-16'>
+        <h3 className='font-bold text-3xl'>What we did</h3>
+        <div className='flex grid lg:grid-cols-3 lg:pt-2'>
+          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
+          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Keyword research</p>
+          </div>
+          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
+          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Content optimization</p>
+          </div>
+          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:ml-4 lg:mt-4'>
+          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Technical SEO audit</p>
+          </div>
+          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
+          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Competitor analysis</p>
+          </div>
+         <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
+         <p className='text-lg text-center lg:font-semibold lg:pt-2'>On-page SEO</p>
+         </div>
         </div>
       </div>
-          <div>
-        <img src="" alt="mic" />
+          <div className='flex gap-6 lg:pt-28 lg:w-[700px]'>
+        <img src="" className='lg:h-72 rounded-2xl' alt="mic" />
         <div>
-          <p>"PixelPulse's SEO strategies completely transformed our online visibility. We're now a front-runner in our industry. Truly outstanding work!"</p>
-          <p>Emily Johnson</p>
-          <p>CMO</p>
+          <p className='font-semibold text-3xl lg:pt-4'>"PixelPulse's SEO strategies completely transformed our online visibility. We're now a front-runner in our industry. Truly outstanding work!"</p>
+          <p className='lg:pt-2 font-bold text-xl lg:pt-8'>Emily Johnson</p>
+          <p className='text-lg text-gray-400'>CMO</p>
         </div>
       </div>
+      </div>
+      <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-32 lg:pb-14'>
       <div>
-      <div>
-        <h1>200%</h1>
-        <p>Traffic increase</p>
+        <h1 className='font-semibold text-4xl'>200%</h1>
+        <p className='text-gray-500 text-lg'>Traffic increase</p>
       </div>
       <div>
-        <h1>40%</h1>
-        <p>Keyword rankings</p>
+        <h1 className='font-semibold text-4xl'>40%</h1>
+        <p className='text-gray-500 text-lg'>Keyword rankings</p>
       </div>
       <div>
-        <h1>3x</h1>
-        <p>Conversion rate</p>
+        <h1 className='font-semibold text-4xl'>3x</h1>
+        <p className='text-gray-500 text-lg'>Conversion rate</p>
       </div>
       <div>
-        <h1>90%</h1>
-        <p>Bounce rate reduction</p>
+        <h1 className='font-semibold text-4xl'>90%</h1>
+        <p className='text-gray-500 text-lg'>Bounce rate reduction</p>
       </div>
       </div>
         </div>
