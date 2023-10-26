@@ -42,11 +42,11 @@ const Projects = () => {
                 <Blogstemplate
                 photo={blog2}
                 date='sep 13,2023'
-                header='Mastering the art of emailing marketing'
-                desc='Unlock the secretes to email marketing success with proven strategies and tips for engaging your audience effectively'
+                header='The power of visual storytelling online'
+                desc='Explorer the impact of visual storytelling in digital content and learning how to leverage it potential.'
                 pic={blog2pic}
-                name='John Doe'
-                position='Email Specialist'
+                name='Jake Thompson'
+                position='Content Strategist'
                 />
                 </Link>
 
@@ -54,11 +54,12 @@ const Projects = () => {
                 <Blogstemplate
                 photo={blog}
                 date='sep 13,2023'
-                header='Mastering the art of emailing marketing'
-                desc='Unlock the secretes to email marketing success with proven strategies and tips for engaging your audience effectively'
+                header='The art of crafting compelling content'
+                desc='Unlock the secrets to crafting content that captivates your audience
+                and drives meaningful engagement.'
                 pic={blogpic}
-                name='John Doe'
-                position='Email Specialist'
+                name='Olivia Martinez'
+                position='Content Specialist'
                 />
                 </Link>
 
@@ -66,11 +67,11 @@ const Projects = () => {
                 <Blogstemplate
                 photo={blog3}
                 date='sep 13,2023'
-                header='Mastering the art of emailing marketing'
-                desc='Unlock the secretes to email marketing success with proven strategies and tips for engaging your audience effectively'
+                header='Effective strategies for boosting online engagement'
+                desc='Enhance online engagement with these strategies: audience understanding, quality content, consistency, user-generated content, and more.'
                 pic={blog3pic}
-                name='John Doe'
-                position='Email Specialist'
+                name='John Smith'
+                position='Marketing Strategist'
                 />
                 </Link>
             </div>
