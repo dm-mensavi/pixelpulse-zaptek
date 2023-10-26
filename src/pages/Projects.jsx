@@ -69,7 +69,7 @@ const projectData = [
 const Projects = () => {
 	return (
 		<div className="pt-10">
-			<div className="lg:pt-20">
+			<div className="lg:pt-20 pt-10">
 				<div className="lg:h-[300px] lg:w-[872px] flex-col gap-y-6">
 					<h1 className="text-base font-semibold text-[#1d4ed8] mb-3">Projects</h1>
 					<h1 className="font-extrabold text-4xl md:text-6xl mb-3">

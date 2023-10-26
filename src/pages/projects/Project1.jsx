@@ -5,7 +5,7 @@ import mic from "../../public/James.webp";
 function Project1() {
   return (
     <div>
-      <div className="lg:pr-16 lg:pl-16 lg:pt-40 pl-8 pr-8">
+      <div className="lg:pr-16 lg:pl-16 lg:pt-40 ">
       <div className='border-b text-center h-full '>
       <h3 className='font-semibold text-base pt-20 lg:pt-0'>Case study</h3>
       <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Strategic consultation boosts market impact</h1>
@@ -29,8 +29,8 @@ function Project1() {
       <img src={first} alt="strategy" className='rounded-3xl' />
       </div>
 
-      <div className='lg:pl-48 lg:pr-52'>
-      <div className='lg:pt-10 pt-4'>
+      <div className='lg:pl-48 lg:pr-52 mt-10'>
+      <div className='lg:pt-10 pt-4 space-y-10'>
         <h3 className='font-bold text-3xl'>Overview</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>At PixelPulse, we embark on exciting journeys with our clients to transform their digital presence. Our latest project with Green Eco showcases our commitment to delivering outstanding results in the ever-evolving landscape of digital marketing and web development.</p>
       </div>
@@ -40,7 +40,7 @@ function Project1() {
       </div>
       <div className='lg:pt-6 pt-4'>
         <h3 className='font-bold text-3xl'>Challenges faced</h3>
-        <ul className='lg:pt-4 list-disc pt-2'>
+        <ul className='lg:pt-4 list-disc ml-5 pt-2'>
           <li><p className='font-semibold text-lg'>Low Online Visibility: <span className='text-gray-500 text-lg font-normal'>Green Eco struggled with low online visibility and was falling behind competitors in search engine rankings.</span></p></li>
           <li><p className='font-semibold text-lg'>Inconsistent Branding: <span className='text-gray-500 text-lg font-normal'>Their brand identity was inconsistent across digital channels, leading to confusion among their audience.</span></p></li>
           <li><p className='font-semibold text-lg'>Lack of Engaging Content: <span className='text-gray-500 text-lg font-normal'>he client's content lacked the engagement factor necessary to connect with their target audience effectively.</span></p></li>
@@ -51,10 +51,10 @@ function Project1() {
         <h3 className='font-bold text-3xl'>Project goals</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>Our primary goal for this project was to enhance Green Eco's digital presence, drive organic traffic, improve engagement, and ultimately, boost conversions. We aimed to achieve this through a comprehensive strategy that addressed the challenges mentioned above.</p>
       </div>
-      <div className='lg:pt-6 pt-4'>
+      <div className='lg:pt-6 pt-4 mt-5'>
         <h3 className='font-bold text-3xl'>Our approach</h3>
-        <p className='text-gray-500 text-lg lg:pt-4'>To meet Green Eco's goals effectively, we implemented a multifaceted approach, including:</p>
-        <ol className="pt-4">
+        <p className='text-gray-500 text-lg lg:pt-4 pb-5'>To meet Green Eco's goals effectively, we implemented a multifaceted approach, including:</p>
+        <ol className="pt-4 space-y-10">
           <li className='font-bold text-2xl lg:pt-4'>1. In-depth SEO optimization</li>
           <p className='text-gray-500 text-lg lg:pt-4'>We conducted extensive keyword research, identifying high-impact keywords relevant to Green Eco's industry. This laid the foundation for optimizing their website content and meta tags, significantly improving search engine rankings.</p>
           <li className='font-bold text-2xl lg:pt-4 pt-2'>2. Content strategy and creation</li>
@@ -67,17 +67,17 @@ function Project1() {
           <p className='text-gray-500 text-lg lg:pt-4'>We implemented robust analytics tools to monitor the project's progress continually. Monthly reports provided Green Eco with clear insights into their digital performance and the effectiveness of our strategies.</p>
         </ol>
       </div>
-      <div className='lg:pt-8 pt-4'>
+      <div className='lg:pt-8 pt-8'>
         <h3 className='font-bold text-3xl'>Results achieved</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>Our collaboration with Green Eco yielded remarkable results:</p>
-        <ul className='lg:pt-4'>
-          <li className='font-semibold text-lg lg:pt-4'>Traffic Increase: <span className='font-normal text-lg'>Within just six months, we achieved a 200% increase in website traffic.</span></li>
-          <li className='font-semibold text-lg lg:pt-4'>Keyword Rankings: <span className='font-normal text-lg'>Green Eco saw a 40% improvement in their keyword rankings, placing them higher in search engine results pages (SERPs).</span></li>
-          <li className='font-semibold text-lg lg:pt-4'>Conversion Rate: <span className='font-normal text-lg'>We tripled their conversion rate, translating to a substantial growth in leads and sales.</span></li>
-          <li className='font-semibold text-lg lg:pt-4'>Bounce Rate Reduction: <span className='font-normal text-lg'>The bounce rate decreased by an impressive 90%, indicating improved user engagement.</span></li>
+        <ul className='lg:pt-4 mt-5'>
+          <li className='font-semibold pb-5 text-lg lg:pt-4'>Traffic Increase: <span className='font-normal text-lg'>Within just six months, we achieved a 200% increase in website traffic.</span></li>
+          <li className='font-semibold pb-5 text-lg lg:pt-4'>Keyword Rankings: <span className='font-normal text-lg'>Green Eco saw a 40% improvement in their keyword rankings, placing them higher in search engine results pages (SERPs).</span></li>
+          <li className='font-semibold pb-5 text-lg lg:pt-4'>Conversion Rate: <span className='font-normal text-lg'>We tripled their conversion rate, translating to a substantial growth in leads and sales.</span></li>
+          <li className='font-semibold pb-5 text-lg lg:pt-4'>Bounce Rate Reduction: <span className='font-normal text-lg'>The bounce rate decreased by an impressive 90%, indicating improved user engagement.</span></li>
         </ul>
       </div>
-      <div className='lg:pt-6'>
+      <div className='lg:pt-6 mb-10'>
         <h3 className='font-bold text-3xl'>Conclusion</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>In conclusion, our partnership with Green Eco is a testament to our commitment to driving exceptional results in the digital realm. We thrive on challenges, and this project showcases our ability to transform digital landscapes and achieve measurable success for our clients. We look forward to continuing this journey with Green Eco and helping them reach even greater heights in their digital endeavors.</p>
       </div>
@@ -93,10 +93,10 @@ function Project1() {
           <div className='lg:h-10 h-10 w-40 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 mt-4'>
           <p className='text-lg lg:font-semibold text-center pt-2'>Content strategy</p>
           </div>
-          <div className='lg:h-10 rounded-md h-10 w-40 lg:w-48 bg-[#F3F4F6] lg:mt-4 w-48 mt-4'>
+          <div className='lg:h-10 rounded-md h-10 lg:w-48 bg-[#F3F4F6] lg:mt-4 w-48 mt-4'>
           <p className='text-lg text-center lg:font-semibold pt-2'>Campaign execution</p>
           </div>
-          <div className='lg:h-10 rounded-md h-10 w-48 lg:w-56 bg-[#F3F4F6] lg:mt-4 mt-4 w-52'>
+          <div className='lg:h-10 rounded-md h-10 lg:w-56 bg-[#F3F4F6] lg:mt-4 mt-4 w-52'>
           <p className='text-lg text-center pt-2 lg:font-semibold'>Social media optimization</p>
           </div>
         </div>
@@ -115,17 +115,17 @@ function Project1() {
         </div>
         </div>
       </div>
-        <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
+        <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row lg:flex'>
         <img src={mic} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
         <div>
           <p className='font-semibold text-3xl lg:pt-4'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
-          <p className='lg:pt-2 font-bold text-xl lg:pt-8 pt-4'>Michael Turner</p>
+          <p className='lg:pt-2 font-bold text-xl pt-4'>Michael Turner</p>
           <p className='text-lg text-gray-400'>Marketing Director</p>
         </div>
         </div>
       </div>
     </div>
-    <div className='flex gap-10 lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+    <div className='flex gap-10 lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col mb-20 lg:flex-row'>
       <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>300%</h1>
         <p className='text-gray-500 text-lg'>Brand awareness</p>
