@@ -4,8 +4,8 @@ import sara from '../../public/Sarah.webp'
 
 function Project2() {
   return (
-    <div>
-      <div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
+    <div className='mb-20'>
+      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
       <div className='border-b text-center'>
       <h3 className='font-semibold text-base pt-20'>Case study</h3>
       <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Revamped website drives conversion surge</h1>
@@ -30,7 +30,7 @@ function Project2() {
       <img src={second} alt="strategy" className='rounded-3xl' />
       </div>
       </div>
-      <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-6 pt-4 flex-col lg:flex-row'>
+      <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-6 pt-4 flex-col'>
       <div>
         <h3 className='font-bold text-3xl text-gray-600'>Overview</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>In this comprehensive case study, we dive deep into a project that exemplifies PixelPulse's ability to transform a client's online presence through strategic Search Engine Optimization (SEO) techniques. The client, TechInnovators Inc., approached us with the goal of redefining their digital footprint and establishing themselves as a frontrunner in their industry.</p>
@@ -52,7 +52,7 @@ function Project2() {
         <h3 className='font-bold text-3xl text-gray-600'>Approach</h3>
        <div>
        <h4 className='font-bold text-2xl text-gray-600'>Discovery</h4>
-        <ul className='list-disc'>
+        <ul className='list-disc ml-5'>
         <li><p className='text-gray-500 text-lg lg:pt-4'>Conducted extensive keyword research to identify high-value keywords relevant to TechInnovators Inc.'s services.</p></li>
         <li><p className='text-gray-500 text-lg lg:pt-4'>Analyzed the competitive landscape to pinpoint opportunities and gaps.</p></li>
         </ul>
@@ -80,7 +80,7 @@ function Project2() {
        </div>
        <div className='lg:pt-6'>
         <h4 className='font-bold text-3xl text-gray-600'>On-page SEO</h4>
-        <ul className='list-disc'>
+        <ul className='list-disc ml-5'>
           <li><p className='text-gray-500 text-lg lg:pt-4'>Optimized on-page elements, including meta titles, descriptions, headings, and image alt tags.</p></li>
           <li><p className='text-gray-500 text-lg lg:pt-4'>Ensured a mobile-responsive design for an improved user experience.</p></li>
         </ul>
@@ -113,14 +113,14 @@ function Project2() {
       </div>
       <div className='lg:pt-16'>
         <h3 className='font-bold text-3xl'>What we did</h3>
-        <div className='flex flex-col lg:grid lg:grid-cols-3 lg:pt-2 pt-4 lg:pt-0'>
+        <div className='flex flex-col lg:grid lg:grid-cols-3 lg:pt-2 pt-4 '>
           <div className='lg:h-10 h-10 w-40 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
           <p  className='text-lg text-center lg:font-semibold pt-2'>Website audit</p>
           </div>
           <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
           <p className='text-lg text-center lg:font-semibold pt-2'>Responsive design</p>
           </div>
-          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <div className='lg:h-10 h-10 w-56 rounded-md lg:w-56 bg-[#F3F4F6] lg:mt-4 mt-4'>
           <p className='text-lg text-center lg:font-semibold pt-2'>Content optimization</p>
           </div>
           <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
