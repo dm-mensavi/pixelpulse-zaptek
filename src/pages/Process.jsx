@@ -206,17 +206,17 @@ function Process() {
             Our Process
           </h1>
 
-          <h2 className='text-black text-4xl md:lg:text-6xl font-bold mt-4 mb-8'>
+          <h2 className='text-black text-4xl md:text-6xl font-bold mt-4 mb-8'>
             From idea to implementation
           </h2>
 
-          <p className='md:lg:text-xl text-gray-500'>
+          <p className='md:text-xl text-gray-500'>
             At PixelPulse, every project begins with understanding, then strategy formulation, creative execution, and continuous optimization. Experience a journey tailored for measurable success and impactful results.
           </p>
         </div>
       </section>
 
-      <section className='md:lg:lg:py-32 py-12'>
+      <section className='md:lg:py-32 py-12'>
         <div className='section-content min-w-full'>
           <div className='grid justify-between gap-12 md:grid-cols-2 md:gap-15 lg:gap-20 max-w-5xl min-w-full'>
             <div>
@@ -248,14 +248,14 @@ function Process() {
       </section>
 
       <section 
-        className='md:lg:py-32 md:px-10 md:py-12 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
+        className='md:py-32 md:px-10 md:py-12 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
       >
         <div 
           className='section-content px-4'
         >
           <div className=''>
-            <div className='section-header md:lg:text-center flex justify-center items-center'>
-              <div className='md:lg:max-w-xl'>
+            <div className='section-header md:text-center flex justify-center items-center'>
+              <div className='md:max-w-xl'>
                 <h1 className='font-semibold text-xl'>
                   02.
                 </h1>
@@ -271,7 +271,7 @@ function Process() {
             </div>
 
             <div className='flex justify-center items-center mt-12'>
-              <div className='discovery-decsription-container mt-12 grid grid-cols-1 md:lg:grid-cols-2 md:lg:gap-14 gap-10 text-lg'>
+              <div className='discovery-decsription-container mt-12 grid grid-cols-1 md:grid-cols-2 md:gap-14 gap-10 text-lg'>
                 {RenderSVG(strategyList, 'strategy')}
               </div>
             </div>
@@ -280,9 +280,9 @@ function Process() {
         </div>
       </section>
 
-      <section className='execution-section md:lg:lg:py-32 py-12'>
+      <section className='execution-section md:lg:py-32 py-12'>
         <div className='section-content flex justify-center items-center min-w-full max-w-4xl'>
-          <div className='grid md:lg:grid-cols-2 grid-cols-1 gap-12'>
+          <div className='grid md:grid-cols-2 grid-cols-1 gap-12'>
             <figure className='section-image overflow-hidden rounded-2xl'>
               <img src={executionImage} alt='happy people' className='w-full h-full object-cover'/>
             </figure>
@@ -325,7 +325,7 @@ function Process() {
       </section>
 
       <section 
-        className='our-values py-12 md:lg:py-32 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
+        className='our-values py-12 md:py-32 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
       >
         <div className='section-content px-4'>
           <div className='md:px-10 lg:px-20'>
@@ -337,7 +337,7 @@ function Process() {
               Guiding every digital step
             </h2>
             
-            <p className='text-[#f3f4f6] text-lg md:lg:max-w-2xl'>
+            <p className='text-[#f3f4f6] text-lg md:max-w-2xl'>
             These core beliefs underpin every decision, project, and relationship at PixelPulse, ensuring consistency and excellence.
             </p>
 
