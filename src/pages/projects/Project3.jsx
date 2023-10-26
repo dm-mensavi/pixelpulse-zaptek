@@ -5,30 +5,30 @@ import david from '../../public/David.webp'
 function Project3() {
   return (
     <div>
-      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
+      <div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
           <div className='border-b text-center'>
-          <h3 className='font-semibold text-base'>Case study</h3>
-          <h1 className='font-bold text-4xl lg:pt-6'>Social media mastery drives engagement</h1>
-          <p className='text-gray-400 text-2xl lg:pb-10 lg:pt-6'>Learn how GlobalSolutions Ltd. partnered with PixelPulse to harness the power of social media, resulting in unprecedented engagement.</p>
+          <h3 className='font-semibold text-base pt-20 text-base'>Case study</h3>
+          <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Social media mastery drives engagement</h1>
+          <p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>Learn how GlobalSolutions Ltd. partnered with PixelPulse to harness the power of social media, resulting in unprecedented engagement.</p>
           </div>
-          <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10'>
-          <div className='lg:w-72'>
+          <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10 pt-16'>
+          <div className='lg:w-72 w-96'>
             <h4 className='font-semibold'>Client</h4>
             <p className='lg:pt-2'>Global Solutions</p>
           </div>
-          <div className='lg:w-72'>
+          <div className='lg:w-72 w-96'>
             <h4 className='font-semibold'>Year</h4>
             <p className='lg:pt-2'>October 2022</p>
           </div>
-          <div className='lg:w-72'>
+          <div className='lg:w-72 w-96'>
             <h4 className='font-semibold'>Service</h4>
             <p className='lg:pt-2'>Social Media</p>
           </div>
           </div>
-        <div className='lg:pt-20'>
+        <div className='lg:pt-20 pt-16'>
           <img src={third} alt="strategy" className='rounded-3xl' />
         </div>
-        <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-8'>
+        <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-8 gap-8 pt-4 flex-col'>
           <div>
           <p className='text-gray-500 text-lg font-normal lg:pt-4'>At PixelPulse, we are proud to showcase the remarkable journey of our partnership with TechInnovators Inc., a dynamic tech solutions provider in the fast-paced industry of digital innovations. This case study dives deep into how we harnessed the power of SEO optimization to catapult TechInnovators Inc. from a promising contender to an industry leader.</p>
           </div>
@@ -86,30 +86,44 @@ function Project3() {
           </div>
           <div>
             <h3 className='font-bold text-3xl text-gray-600'>Conclusion</h3>
-            <p className='text-gray-500 text-lg font-normal lg:pt-4'>The partnership between TechInnovators Inc. and PixelPulse is a testament to the transformative power of SEO optimization. Through careful planning, diligent execution, and unwavering commitment, we were able to elevate TechInnovators Inc. to a prominent position in their industry. The remarkable increase in traffic, improved keyword rankings, higher conversion rates, and reduced bounce rate all stand as proof of the effectiveness of our approach.</p>
+            <p className='text-gray-500 text-lg font-normal pt-4'>The partnership between TechInnovators Inc. and PixelPulse is a testament to the transformative power of SEO optimization. Through careful planning, diligent execution, and unwavering commitment, we were able to elevate TechInnovators Inc. to a prominent position in their industry. The remarkable increase in traffic, improved keyword rankings, higher conversion rates, and reduced bounce rate all stand as proof of the effectiveness of our approach.</p>
             <p className='text-gray-500 text-lg font-normal lg:pt-4'>At PixelPulse, we continue to be driven by our core values of innovation, client-centricity, and results-driven strategies. This case study is a testament to our dedication to transforming our clients' digital landscapes and helping them thrive in the ever-evolving digital world.</p>
           </div>
           <div className='lg:pt-16'>
         <h3 className='font-bold text-3xl text-gray-600'>What we did</h3>
-        <div className='flex grid lg:grid-cols-3 lg:pt-2'>
-         <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
-         <p className='text-lg text-center lg:font-semibold lg:pt-2'>Social media strategy</p>
+        <div className='flex flex-col lg:grid lg:grid-cols-3 lg:pt-2 pt-4 lg:pt-0'>
+         <div className='lg:h-10 rounded-md w-48 bg-[#F3F4F6] lg:mt-4'>
+         <p className='text-lg text-center lg:font-semibold pt-2'>Social media strategy</p>
          </div>
-          <div className='lg:h-10 rounded-md lg:w-52 lg:ml-4 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Content calendar planning</p>
+          <div className='lg:h-10 rounded-md w-56 lg:w-52 lg:ml-4 bg-[#F3F4F6] mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Content calendar planning</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:ml-12 lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Audience analysis</p>
+          <div className='lg:h-10 rounded-md w-48 lg:w-40 bg-[#F3F4F6] lg:ml-12 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Audience analysis</p>
           </div>
-         <div className='lg:h-10 rounded-md lg:w-44 bg-[#F3F4F6] lg:mt-4'>
-         <p className='text-lg text-center lg:font-semibold lg:pt-2'>Creative campaigns</p>
+         <div className='lg:h-10 rounded-md w-48 lg:w-44 bg-[#F3F4F6] mt-4'>
+         <p className='text-lg text-center lg:font-semibold pt-2'>Creative campaigns</p>
          </div>
-         <div className='lg:h-10 rounded-md lg:w-52 bg-[#F3F4F6] lg:mt-4'>
-         <p className='text-lg text-center lg:font-semibold lg:pt-2'>Influencer collaborations</p>
+         <div className='lg:h-10 rounded-md w-52 lg:w-52 bg-[#F3F4F6] mt-4'>
+         <p className='text-lg text-center lg:font-semibold pt-2'>Influencer collaborations</p>
          </div>
         </div>
       </div>
-          <div className='flex gap-6 lg:pt-28 lg:w-[700px]'>
+      <div>
+      <div className='flex gap-6 lg:hidden lg:w-[700px] pt-6 flex-col'>
+        <div>
+        <p className='font-semibold text-2xl lg:pt-4'>"PixelPulse's social media expertise transformed our brand's online presence, fostering genuine engagement and growth."</p>
+        </div>
+        <div className="flex flex-row">
+        <img src={david} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
+        <div className="flex flex-col pl-4">
+        <p className='lg:pt-2 font-bold text-xl pt-2'>David Rodriguez</p>
+          <p className='text-lg text-gray-400'>CEO</p>
+        </div>
+        </div>
+        </div>
+      </div>
+          <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
         <img src={david} className='lg:h-72 rounded-2xl' alt="mic" />
         <div>
           <p className='font-semibold text-3xl lg:pt-4'>"PixelPulse's social media expertise transformed our brand's online presence, fostering genuine engagement and growth."</p>
@@ -119,20 +133,20 @@ function Project3() {
       </div>
         </div>
       </div>
-      <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-32 lg:pb-14'>
-      <div>
+      <div className='flex gap-10 lg:pt-28 lg:gap-20 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>300%</h1>
         <p className='text-gray-500 text-lg'>Increase in followers</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>60%</h1>
         <p className='text-gray-500 text-lg'>Boost in engagement</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>2.5M</h1>
         <p className='text-gray-500 text-lg'>Reach expansion</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>95%</h1>
         <p className='text-gray-500 text-lg'>Sentiment increase</p>
       </div>

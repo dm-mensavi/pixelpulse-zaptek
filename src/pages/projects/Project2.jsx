@@ -5,32 +5,32 @@ import sara from '../../public/Sarah.webp'
 function Project2() {
   return (
     <div>
-      <div className="lg:pr-32 lg:pl-32 lg:pt-40">
+      <div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
       <div className='border-b text-center'>
-      <h3 className='font-semibold text-base'>Case study</h3>
-      <h1 className='font-bold text-4xl lg:pt-6'>Revamped website drives conversion surge</h1>
-      <p className='text-gray-400 text-2xl lg:pb-10 lg:pt-6'>Discover how Eco Tech partnered with PixelPulse to overhaul their website, resulting in a significant boost in conversions.</p>
+      <h3 className='font-semibold text-base pt-20 text-base'>Case study</h3>
+      <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Revamped website drives conversion surge</h1>
+      <p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>Discover how Eco Tech partnered with PixelPulse to overhaul their website, resulting in a significant boost in conversions.</p>
       </div>
-      <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10'>
-        <div className='lg:w-72'>
+      <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10 pt-16'>
+        <div className='lg:w-72 w-96'>
         <h5 className='font-semibold'>Client</h5>
         <p className='lg:pt-2'>Eco Tech</p>
         </div>
-        <div className='lg:w-72'>
+        <div className='lg:w-72 w-96'>
         <h5 className='font-semibold'>Year</h5>
         <p className='lg:pt-2'>May 2023</p>
         </div>
-        <div className='lg:w-72'>
+        <div className='lg:w-72 w-96'>
         <h5 className='font-semibold'>Service</h5>
         <p className='lg:pt-2'>Web Development</p>
         </div>
       </div>
       <div>
-      <div className='lg:pt-20'>
+      <div className='lg:pt-20 pt-16'>
       <img src={second} alt="strategy" className='rounded-3xl' />
       </div>
       </div>
-      <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-6'>
+      <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-6 pt-4 flex-col lg:flex-row'>
       <div>
         <h3 className='font-bold text-3xl text-gray-600'>Overview</h3>
         <p className='text-gray-500 text-lg lg:pt-4'>In this comprehensive case study, we dive deep into a project that exemplifies PixelPulse's ability to transform a client's online presence through strategic Search Engine Optimization (SEO) techniques. The client, TechInnovators Inc., approached us with the goal of redefining their digital footprint and establishing themselves as a frontrunner in their industry.</p>
@@ -48,7 +48,7 @@ function Project2() {
           <li><p className='font-semibold text-lg lg:pt-4'>3. Generate Quality Leads: <span className='text-gray-500 text-lg font-normal'>Attract and nurture high-quality leads interested in TechInnovators Inc.'s services.</span></p></li>
           </ul>
       </div>
-      <div className='lg:pt-6 flex lg:flex-col gap-6'>
+      <div className='lg:pt-6 flex flex-col gap-6'>
         <h3 className='font-bold text-3xl text-gray-600'>Approach</h3>
        <div>
        <h4 className='font-bold text-2xl text-gray-600'>Discovery</h4>
@@ -86,7 +86,7 @@ function Project2() {
         </ul>
        </div>
       </div>
-      <div className='lg:pt-8 flex lg:flex-col gap-8'>
+      <div className='lg:pt-8 flex flex-col gap-8'>
         <h3 className='font-bold text-gray-600 text-3xl'>Results</h3>
         <div>
           <h4 className='font-bold text-2xl text-gray-600'>Traffic increase</h4>
@@ -113,25 +113,39 @@ function Project2() {
       </div>
       <div className='lg:pt-16'>
         <h3 className='font-bold text-3xl'>What we did</h3>
-        <div className='flex grid lg:grid-cols-3 lg:pt-2'>
-          <div className='lg:h-10 rounded-md lg:w-36 bg-[#F3F4F6] lg:mt-4'>
-          <p  className='text-lg text-center lg:font-semibold lg:pt-2'>Website audit</p>
+        <div className='flex flex-col lg:grid lg:grid-cols-3 lg:pt-2 pt-4 lg:pt-0'>
+          <div className='lg:h-10 h-10 w-40 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
+          <p  className='text-lg text-center lg:font-semibold pt-2'>Website audit</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Responsive design</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Responsive design</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-52 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Content optimization</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Content optimization</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Improved navigation</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Improved navigation</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:ml-6 lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>User experience</p>
+          <div className='lg:h-10 h-10 w-40 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>User experience</p>
           </div>
         </div>
       </div>
-      <div className='flex gap-6 lg:pt-28 lg:w-[700px]'>
+      <div>
+      <div className='flex gap-6 lg:hidden lg:w-[700px] pt-6 flex-col'>
+        <div>
+        <p className='font-semibold text-2xl lg:pt-4'>"PixelPulse's web development expertise revitalized our online platform, increasing conversions and user satisfaction. An outstanding team!"</p>
+        </div>
+        <div className="flex flex-row">
+        <img src={sara} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
+        <div className="flex flex-col pl-4">
+        <p className='lg:pt-2 font-bold text-xl pt-2'>Sarah Williams</p>
+          <p className='text-lg text-gray-400'>CTO</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
         <img src={sara} className='lg:h-80 lg:w-72 rounded-2xl' alt="sara" />
         <div>
           <p className='font-semibold text-3xl'>"PixelPulse's web development expertise revitalized our online platform, increasing conversions and user satisfaction. An outstanding team!"</p>
@@ -141,20 +155,20 @@ function Project2() {
       </div>
       </div>
       </div>
-      <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-32 lg:pb-14'>
-      <div>
+      <div className='flex gap-10 lg:pt-28 lg:gap-20 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>120%</h1>
         <p className='text-gray-500 text-lg'>Increase in conversions</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>50%</h1>
         <p className='text-gray-500 text-lg'>Reduction in bounce rate</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>3s</h1>
         <p className='text-gray-500 text-lg'>Faster page load times</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>95%</h1>
         <p className='text-gray-500 text-lg'>User satisfaction increase</p>
       </div>

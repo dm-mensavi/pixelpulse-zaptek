@@ -11,7 +11,7 @@ function Project1() {
       <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Strategic consultation boosts market impact</h1>
       <p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>Explore how GreenEco Landscapes partnered with PixelPulse to elevate their marketing strategies, achieving significant market impact.</p>
       </div>
-      <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10 pt-4 pt-36'>
+      <div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10 pt-16'>
         <div className='lg:w-72 w-96'>
         <h5 className='font-semibold'>Client</h5>
         <p className='lg:pt-2'>Green Eco</p>
@@ -25,7 +25,7 @@ function Project1() {
         <p className='lg:pt-2'>Marketing Consultation</p>
         </div>
       </div>
-      <div className='lg:pt-20 pt-4 pt-28'>
+      <div className='lg:pt-20 pt-16'>
       <img src={first} alt="strategy" className='rounded-3xl' />
       </div>
 
@@ -84,24 +84,38 @@ function Project1() {
       <div className='lg:pt-16'>
         <h3 className='font-bold text-3xl'>What we did</h3>
         <div className='flex flex-col lg:grid lg:grid-cols-3 lg:pt-2 pt-4 lg:pt-0'>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Market analysis</p>
+          <div className='lg:h-10 h-10 w-40 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
+          <p className='text-lg lg:font-semibold text-center pt-2'>Market analysis</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 ml-2 ml-2'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Competitor research</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Competitor research</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] ml-8 lg:mt-4 ml-2 mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Content strategy</p>
+          <div className='lg:h-10 h-10 w-40 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg lg:font-semibold text-center pt-2'>Content strategy</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 ml-4 w-48 mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Campaign execution</p>
+          <div className='lg:h-10 rounded-md h-10 w-40 lg:w-48 bg-[#F3F4F6] lg:mt-4 w-48 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Campaign execution</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-56 bg-[#F3F4F6] lg:mt-4 ml-6 mt-4 w-52'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Social media optimization</p>
+          <div className='lg:h-10 rounded-md h-10 w-48 lg:w-56 bg-[#F3F4F6] lg:mt-4 mt-4 w-52'>
+          <p className='text-lg text-center pt-2 lg:font-semibold'>Social media optimization</p>
           </div>
         </div>
       </div>
-        <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row'>
+      <div>
+      <div className='flex gap-6 lg:hidden lg:w-[700px] pt-6 flex-col'>
+        <div>
+        <p className='font-semibold text-2xl lg:pt-4'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
+        </div>
+        <div className="flex flex-row">
+        <img src={mic} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
+        <div className="flex flex-col pl-4">
+        <p className='lg:pt-2 font-bold text-xl pt-2'>Michael Turner</p>
+          <p className='text-lg text-gray-400'>Marketing Director</p>
+        </div>
+        </div>
+        </div>
+      </div>
+        <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
         <img src={mic} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
         <div>
           <p className='font-semibold text-3xl lg:pt-4'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
@@ -111,21 +125,21 @@ function Project1() {
         </div>
       </div>
     </div>
-    <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-32 lg:pb-14 pt-4 pl-6'>
-      <div>
-        <h1 className='font-semibold lg:text-4xl text-2xl'>300%</h1>
+    <div className='flex gap-10 lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
+        <h1 className='font-semibold text-4xl'>300%</h1>
         <p className='text-gray-500 text-lg'>Brand awareness</p>
       </div>
-      <div>
-        <h1 className='font-semibold lg:text-4xl text-2xl'>40%</h1>
+      <div className="lg:mt-0 border-l-2 pl-6">
+        <h1 className='font-semibold text-4xl'>40%</h1>
         <p className='text-gray-500 text-lg'>Market share</p>
       </div>
-      <div>
-        <h1 className='font-semibold lg:text-4xl text-2xl'>90%</h1>
+      <div className="lg:mt-0 border-l-2 pl-6">
+        <h1 className='font-semibold text-4xl'>90%</h1>
         <p className='text-gray-500 text-lg'>Online engagement</p>
       </div>
-      <div>
-        <h1 className='font-semibold lg:text-4xl text-2xl'>95%</h1>
+      <div className="lg:mt-0 border-l-2 pl-6">
+        <h1 className='font-semibold text-4xl'>95%</h1>
         <p className='text-gray-500 text-lg'>Sentiment increase</p>
       </div>
       </div>

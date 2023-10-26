@@ -5,34 +5,34 @@ import emily from '../../public/Emily.webp';
 function Project4() {
 	return (
 		<div>
-			<div className="lg:pr-32 lg:pl-32 lg:pt-40">
+			<div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
 					<div className='border-b text-center'>
-          <h3 className='font-semibold text-base'>Case study</h3>
-					<h2 className='font-bold text-4xl lg:pt-6'>SEO revamp drives skyrocketing traffic</h2>
-					<p className='text-gray-400 text-2xl lg:pb-10 lg:pt-6'>
+          <h3 className='font-semibold text-base pt-20 text-base'>Case study</h3>
+					<h2 className='font-bold text-4xl lg:pt-6 pt-4'>SEO revamp drives skyrocketing traffic</h2>
+					<p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>
 						Discover how TechInnovators Inc. partnered with PixelPulse to
 						revitalize their online presence and achieve remarkable growth
 						through SEO optimization.
 					</p>
           </div>
-					<div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10'>
-						<div className='lg:w-72'>
+					<div className='flex lg:gap-20 lg:pl-6 text-center lg:pt-10 pt-16'>
+						<div className='lg:w-72 w-96'>
 							<h4 className='font-semibold'>Client</h4>
 							<p className='lg:pt-2'>Tech Innovators</p>
 						</div>
-						<div className='lg:w-72'>
+						<div className='lg:w-72 w-96'>
 							<h4 className='font-semibold'>Year</h4>
 							<p className='lg:pt-2'>April 2022</p>
 						</div>
-						<div className='lg:w-72'>
+						<div className='lg:w-72 w-96'>
 							<h4 className='font-semibold'>Service</h4>
 							<p className='lg:pt-2'>SEO Optimization</p>
 						</div>
 					</div>
-					<div className='lg:pt-20'>
+					<div className='lg:pt-20 pt-16'>
 						<img src={fourth} alt="strategy" className="rounded-3xl" />
 					</div>
-          <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-8'>
+          <div className='lg:pl-32 lg:pr-32 lg:pt-6 flex lg:flex-col gap-8 pt-4 flex-col'>
 					<div>
 						<h3 className='font-bold text-3xl text-gray-600'>Introduction</h3>
 						<p className='text-gray-500 text-lg lg:pt-4'>
@@ -140,25 +140,39 @@ function Project4() {
           </div>
           <div className='lg:pt-16'>
         <h3 className='font-bold text-3xl text-gray-600'>What we did</h3>
-        <div className='flex grid lg:grid-cols-3 lg:pt-2'>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Keyword research</p>
+        <div className='flex flex-col lg:grid lg:grid-cols-3 lg:pt-2 pt-4 lg:pt-0'>
+          <div className='lg:h-10 h-10 w-40 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Keyword research</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Content optimization</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Content optimization</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:ml-4 lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Technical SEO audit</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Technical SEO audit</p>
           </div>
-          <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
-          <p className='text-lg text-center lg:font-semibold lg:pt-2'>Competitor analysis</p>
+          <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+          <p className='text-lg text-center lg:font-semibold pt-2'>Competitor analysis</p>
           </div>
-         <div className='lg:h-10 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4'>
-         <p className='text-lg text-center lg:font-semibold lg:pt-2'>On-page SEO</p>
+         <div className='lg:h-10 h-10 w-48 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mt-4'>
+         <p className='text-lg text-center lg:font-semibold pt-2'>On-page SEO</p>
          </div>
         </div>
       </div>
-          <div className='flex gap-6 lg:pt-28 lg:w-[700px]'>
+      <div>
+      <div className='flex gap-6 lg:hidden lg:w-[700px] pt-6 flex-col'>
+        <div>
+        <p className='font-semibold text-2xl lg:pt-4'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>
+        </div>
+        <div className="flex flex-row">
+        <img src={emily} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
+        <div className="flex flex-col pl-4">
+        <p className='lg:pt-2 font-bold text-xl pt-2'>Michael Turner</p>
+          <p className='text-lg text-gray-400'>Marketing Director</p>
+        </div>
+        </div>
+        </div>
+      </div>
+          <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
         <img src={emily} className='lg:h-72 rounded-2xl' alt="mic" />
         <div>
           <p className='font-semibold text-3xl lg:pt-2'>"PixelPulse's SEO strategies completely transformed our online visibility. We're now a front-runner in our industry. Truly outstanding work!"</p>
@@ -168,20 +182,20 @@ function Project4() {
       </div>
       </div>
       </div>
-      <div className='flex lg:pt-28 lg:gap-32 lg:pr-12 lg:pl-32 lg:pb-14'>
-      <div>
+      <div className='flex gap-10 lg:pt-28 lg:gap-20 lg:pr-20 lg:pl-20 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>200%</h1>
         <p className='text-gray-500 text-lg'>Traffic increase</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>40%</h1>
         <p className='text-gray-500 text-lg'>Keyword rankings</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>3x</h1>
         <p className='text-gray-500 text-lg'>Conversion rate</p>
       </div>
-      <div>
+      <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>90%</h1>
         <p className='text-gray-500 text-lg'>Bounce rate reduction</p>
       </div>
