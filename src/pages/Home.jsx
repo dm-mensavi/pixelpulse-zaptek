@@ -1,5 +1,8 @@
 import React from "react";
 import heroImage from "../public/heroimage.webp";
+import logo1 from "../public/logo1.jpeg";
+import logo2 from "../public/logo2.jpeg";
+import logo3 from "../public/logo3.jpeg";
 
 //SVGs
 const brands = {
@@ -331,6 +334,33 @@ const icons = {
 	),
 };
 
+const caseStudiesData = [
+	{
+		logo: logo1,
+		name: "Green Eco",
+		title: "Marketing Consultation",
+		heading: "Strategic consultation boosts market impact",
+		content:
+			"Explore how GreenEco Landscapes partnered with PixelPulse to elevate their marketing strategies, achieving significant market impact.",
+	},
+	{
+		logo: logo2,
+		name: "Eco Tech",
+		title: "Web Development",
+		heading: "Revamped website drives conversion surge",
+		content:
+			"Discover how Eco Tech partnered with PixelPulse to overhaul their website, resulting in a significant boost in conversions.",
+	},
+	{
+		logo: logo3,
+		name: "Global Solutions",
+		title: "Social Media",
+		heading: "Social media mastery drives engagement",
+		content:
+			"Learn how GlobalSolutions Ltd. partnered with PixelPulse to harness the power of social media, resulting in unprecedented engagement.",
+	},
+];
+
 const serviceData = [
 	{
 		icon: icons.bulb,
@@ -402,7 +432,7 @@ function Home() {
 			{/* Sponsors */}
 			<h2 className="mb-7 font-bold">Endorsed by global brands and startups</h2>
 			{/* brands */}
-			<div className="flex justify-between mb-20">
+			<div className="flex justify-between">
 				<div className="flex flex-col md:flex-row justify-start mr-12">
 					<div className="w-full md:p-1 md:mr-12 mb-5 md:mb-0">
 						{brands.brand1}
@@ -417,8 +447,56 @@ function Home() {
 				</div>
 			</div>
 
+			{/* Case studies */}
+			<section className="our-values py-12 md:lg:py-20 mt-20 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]">
+				<div className="section-content px-4">
+					<div className="md:px-10 lg:px-20">
+						<h2 className="text-4xl font-bold mt-4 mb-8 text-[#f3f4f6]">
+							Case studies
+						</h2>
+
+						<p className="text-[#f3f4f6] text-lg max-w-xl">
+							Delve into our success stories, showcasing powerful results and
+							innovative strategies in digital marketing.
+						</p>
+						<div className="w-full h-[1px] bg-gray-100/5 my-10 mt-20"></div>
+						<div className="flex flex-col md:flex-row justify-between">
+							{caseStudiesData.map((item, index) => (
+								<div className="flex flex-col pr-5 mb-10 max-w-sm" key={index}>
+									{/* logo & name */}
+									<div className="flex">
+										<img src={item.logo} alt={item.name} width={60} height={60} className="rounded-full mr-3"/>
+										<div>
+											<h3 className="font-bold">{item.name}</h3>
+											<p>{item.title}</p>
+										</div>
+									</div>
+									{/* content */}
+									<h3 className="font-bold text-lg my-5">{item.heading}</h3>
+									<p>{item.content}</p>
+								</div>
+							))}
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* Testimony */}
+			<section className="mt-10 sm:py-10 pb-20 md:py-24">
+				<div className="w-44 h-20 text-blue-700 pb-[-20px]">
+					{brands.brand1}
+				</div>
+				<p className="font-semibold text-lg md:text-2xl max-w-2xl pb-10">
+					"Working with PixelPulse was a game-changer. Their team's expertise
+					dramatically elevated our online presence, ensuring we resonated with
+					our target audience like never before."
+				</p>
+				<p className="font-semibold">Jordan Smith</p>
+				<p className="font-light">TechSolutions Inc.</p>
+			</section>
+
 			{/* Services */}
-			<section className="our-values py-12 md:lg:py-32 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]">
+			<section className="our-values py-12 mb-16 md:lg:py-32 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]">
 				<div className="section-content px-4">
 					<div className="md:px-10 lg:px-20">
 						<h1 className="font-semibold text-xl text-[#93C5FD]">Services</h1>
@@ -435,14 +513,17 @@ function Home() {
 						<div className="values-container mt-12 flex justify-center items-center">
 							<div className="grid grid-cols-1 gap-10 md:grid-cols-2 text-lg">
 								{serviceData.map((service, index) => (
-									<div className="flex flex-row mt-3 text-[#d1d5db]" key={index}>
-										<span className="w-[60%] md:w-[50%] lg:w-[30%] lg:-mr-[7%] xl:-mr-[10%] -mr-[5%] sm:w-[20%] sm:-mr-[0]">{service.icon}</span>
-										<div>
-
-										<span className="font-bold text-[#f3f4f6]">
-											{service.header}
+									<div
+										className="flex flex-row mt-3 text-[#d1d5db]"
+										key={index}>
+										<span className="w-[60%] md:w-[50%] lg:w-[30%] lg:-mr-[7%] xl:-mr-[10%] -mr-[5%] sm:w-[20%] sm:-mr-[0]">
+											{service.icon}
 										</span>
-										{service.body}
+										<div>
+											<span className="font-bold text-[#f3f4f6]">
+												{service.header}
+											</span>
+											{service.body}
 										</div>
 									</div>
 								))}
