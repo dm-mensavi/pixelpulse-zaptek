@@ -366,7 +366,7 @@ function About() {
       </section>
 
       <section 
-        className='md:py-32 md:px-10 md:px-20 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
+        className='md:py-32 md:px-10 lg:px-20 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
       >
         <div 
           className='section-content px-4'
@@ -422,7 +422,7 @@ function About() {
       </section>
 
       <section 
-        className='md:py-32 md:px-10 md:px-20 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
+        className='md:py-32 md:px-10 lg:px-20 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
       >
         <div 
           className='section-content px-4'
@@ -512,7 +512,7 @@ function About() {
         </div>
       </section>
 
-      <section className='md:py-32 md:px-10 md:px-20 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'>
+      <section className='md:py-32 md:px-10 lg:px-20 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'>
         <div className='section-content px-4 lg:gap-10 lg:grid lg:grid-cols-3'>
           <div className='section-header lg:col-span-1'>
             <h2 className='text-3xl lg:text-4xl text-[#f3f4f6] font-bold'>
