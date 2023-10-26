@@ -7,7 +7,7 @@ function Project3() {
     <div>
       <div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
           <div className='border-b text-center'>
-          <h3 className='font-semibold text-base pt-20 text-base'>Case study</h3>
+          <h3 className='font-semibold text-base pt-20'>Case study</h3>
           <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Social media mastery drives engagement</h1>
           <p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>Learn how GlobalSolutions Ltd. partnered with PixelPulse to harness the power of social media, resulting in unprecedented engagement.</p>
           </div>
@@ -133,7 +133,7 @@ function Project3() {
       </div>
         </div>
       </div>
-      <div className='flex gap-10 lg:pt-28 lg:gap-20 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+      <div className='lg:flex gap-10 lg:pt-28 lg:gap-20 lg:pr-12 lg:pl-12 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
       <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>300%</h1>
         <p className='text-gray-500 text-lg'>Increase in followers</p>

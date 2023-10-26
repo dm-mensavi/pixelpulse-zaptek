@@ -7,7 +7,7 @@ function Project4() {
 		<div>
 			<div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
 					<div className='border-b text-center'>
-          <h3 className='font-semibold text-base pt-20 text-base'>Case study</h3>
+          <h3 className='font-semibold text-base pt-20'>Case study</h3>
 					<h2 className='font-bold text-4xl lg:pt-6 pt-4'>SEO revamp drives skyrocketing traffic</h2>
 					<p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>
 						Discover how TechInnovators Inc. partnered with PixelPulse to
@@ -182,7 +182,7 @@ function Project4() {
       </div>
       </div>
       </div>
-      <div className='flex gap-10 lg:pt-28 lg:gap-20 lg:pr-20 lg:pl-20 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
+      <div className='lg:flex gap-10 lg:pt-28 lg:gap-20 lg:pr-20 lg:pl-20 lg:pb-14 pt-4 pl-6 flex-col lg:flex-row'>
       <div className="mt-14 lg:mt-0 border-l-2 pl-6">
         <h1 className='font-semibold text-4xl'>200%</h1>
         <p className='text-gray-500 text-lg'>Traffic increase</p>
