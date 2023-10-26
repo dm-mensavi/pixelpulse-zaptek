@@ -115,7 +115,7 @@ function Project1() {
         </div>
         </div>
       </div>
-        <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row lg:flex'>
+        <div className='lg:flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row lg:flex'>
         <img src={mic} className='lg:h-72 rounded-2xl h-16 w-16 lg:w-72' alt="mic" />
         <div>
           <p className='font-semibold text-3xl lg:pt-4'>"PixelPulse's consultation was a game-changer. Their strategies elevated our brand and market presence. Exceptional work!"</p>

@@ -7,7 +7,7 @@ function Project2() {
     <div>
       <div className="lg:pr-32 lg:pl-32 lg:pt-40 pl-8 pr-8">
       <div className='border-b text-center'>
-      <h3 className='font-semibold text-base pt-20 text-base'>Case study</h3>
+      <h3 className='font-semibold text-base pt-20'>Case study</h3>
       <h1 className='font-bold text-4xl lg:pt-6 pt-4'>Revamped website drives conversion surge</h1>
       <p className='text-gray-400 text-2xl lg:pb-10 pb-16 lg:pt-6 pt-4'>Discover how Eco Tech partnered with PixelPulse to overhaul their website, resulting in a significant boost in conversions.</p>
       </div>
@@ -145,7 +145,7 @@ function Project2() {
         </div>
         </div>
       </div>
-      <div className='flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
+      <div className='lg:flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
         <img src={sara} className='lg:h-80 lg:w-72 rounded-2xl' alt="sara" />
         <div>
           <p className='font-semibold text-3xl'>"PixelPulse's web development expertise revitalized our online platform, increasing conversions and user satisfaction. An outstanding team!"</p>
