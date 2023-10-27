@@ -145,11 +145,11 @@ function Project2() {
         </div>
         </div>
       </div>
-      <div className='lg:flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden lg:flex'>
+      <div className='lg:flex gap-6 lg:pt-28 lg:w-[700px] pt-6 flex-col lg:flex-row hidden'>
         <img src={sara} className='lg:h-80 lg:w-72 rounded-2xl' alt="sara" />
         <div>
           <p className='font-semibold text-3xl'>"PixelPulse's web development expertise revitalized our online platform, increasing conversions and user satisfaction. An outstanding team!"</p>
-          <p className='lg:pt-2 font-bold text-xl lg:pt-2'>Sarah Williams</p>
+          <p className='lg:pt-2 font-bold text-xl'>Sarah Williams</p>
           <p className='text-lg text-gray-400'>CTO</p>
         </div>
       </div>
