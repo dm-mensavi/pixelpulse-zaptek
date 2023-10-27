@@ -216,7 +216,7 @@ function Process() {
         </div>
       </section>
 
-      <section className='md:lg:py-32 py-12'>
+      <section className='md:py-32 py-12'>
         <div className='section-content min-w-full'>
           <div className='grid justify-between gap-12 md:grid-cols-2 md:gap-15 lg:gap-20 max-w-5xl min-w-full'>
             <div>
@@ -248,7 +248,7 @@ function Process() {
       </section>
 
       <section 
-        className='md:py-32 md:px-10 md:py-12 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
+        className='md:py-32 md:px-10 lg:py-12 py-12 bg-[#374151] text-white lg:-mx-[80px] md:-mx-[40px] -mx-[16px]'
       >
         <div 
           className='section-content px-4'
@@ -280,7 +280,7 @@ function Process() {
         </div>
       </section>
 
-      <section className='execution-section md:lg:py-32 py-12'>
+      <section className='execution-section md:py-32 py-12'>
         <div className='section-content flex justify-center items-center min-w-full max-w-4xl'>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-12'>
             <figure className='section-image overflow-hidden rounded-2xl'>
