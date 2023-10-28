@@ -144,7 +144,7 @@ function Project1() {
         <p className='text-gray-500 text-lg'>Sentiment increase</p>
       </div>
       </div>
-     <MoreCases/>
+     {/* <MoreCases/> */}
     </div>
   )
 
