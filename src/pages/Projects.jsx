@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import first from "../assets/1.jpg";
-import second from "../assets/2.jpg";
-import third from "../assets/3.jpg";
-import fourth from "../assets/4.jpg";
-import mic from "../assets/mic.jpg";
-import sara from "../assets/sara.jpg";
-import david from "../assets/david.jpg";
-import emily from "../assets/emily.jpg";
-import nat from "../assets/nat.webp";
-import { AiOutlineStar } from "react-icons/ai";
-
+import first from '../public/project1.jpg';
+import second from '../public/project2.jpg';
+import third from '../public/project3.jpg';
+import fourth from '../public/project4.jpg';
+import mic from '../public/James.webp';
+import sara from '../public/Sarah.webp';
+import david from '../public/David.webp';
+import emily from '../public/Emily.webp';
+import nat from '../public/Nathaniel.webp';
+import {AiOutlineStar} from 'react-icons/ai'
+ 
 const projectData = [
 	{
 		title: "Green Eco",
@@ -69,10 +69,10 @@ const projectData = [
 const Projects = () => {
 	return (
 		<div className="pt-10">
-			<div className="lg:pt-20">
+			<div className="lg:pt-20 pt-10">
 				<div className="lg:h-[300px] lg:w-[872px] flex-col gap-y-6">
 					<h1 className="text-base font-semibold text-[#1d4ed8] mb-3">Projects</h1>
-					<h1 className="font-bold text-4xl md:text-6xl mb-3">
+					<h1 className="font-extrabold text-4xl md:text-6xl mb-3">
 						Showcasing our digital excellence
 					</h1>
 					<p className="text-lg text-gray-500">
