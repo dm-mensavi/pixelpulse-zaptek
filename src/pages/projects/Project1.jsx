@@ -1,6 +1,7 @@
 import React from "react";
 import first from "../../public/project1.jpg";
 import mic from "../../public/James.webp";
+import MoreCases from "./MoreCases";
 
 function Project1() {
   return (
@@ -85,7 +86,7 @@ function Project1() {
         <h3 className='font-bold text-3xl'>What we did</h3>
         <div className='flex flex-wrap lg:pt-2 pt-4'>
           <div className='lg:h-10 h-10 w-40 rounded-md lg:w-40 bg-[#F3F4F6] lg:mt-4 mr-5'>
-          <p className='text-lg lg:font-semibold text-center pt-2 mt-5 mr-5'>Market analysis</p>
+          <p className='text-lg lg:font-semibold text-center pt-2 mr-5'>Market analysis</p>
           </div>
           <div className='lg:h-10 h-10 w-40 rounded-md lg:w-48 bg-[#F3F4F6] lg:mt-4 mt-4 mr-5'>
           <p className='text-lg text-center lg:font-semibold pt-2'>Competitor research</p>
@@ -143,6 +144,7 @@ function Project1() {
         <p className='text-gray-500 text-lg'>Sentiment increase</p>
       </div>
       </div>
+     <MoreCases/>
     </div>
   )
 
