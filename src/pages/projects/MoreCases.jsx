@@ -68,7 +68,7 @@ const links=[
       </div>
       <div className='flex gap-6 pl-6 pt-10'>
         {links.map(data=>(
-            <div key={data.id} className="h-[300px] w-60 rounded-3xl bg-cover bg-center" 
+            <div key={data.id} className="h-[300px] w-60 rounded-3xl bg-cover bg-center bg-gradient-to-r from-black to-black" 
             style={{ backgroundImage: `url(${data.pic})`}}>
               <div className='pt-48 pl-4 pb-80'>
               <div className='flex gap-6'>
