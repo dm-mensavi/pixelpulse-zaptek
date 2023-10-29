@@ -1,6 +1,7 @@
 import React from "react";
 import fourth from "../../public/project4.jpg";
 import emily from '../../public/Emily.webp';
+import MoreCases from "./MoreCases";
 
 function Project4() {
 	return (
@@ -348,6 +349,7 @@ function Project4() {
 					<p className="text-gray-500 text-lg">Bounce rate reduction</p>
 				</div>
 			</div>
+			<MoreCases currentProject={4}/>
 		</div>
 	);
   }
