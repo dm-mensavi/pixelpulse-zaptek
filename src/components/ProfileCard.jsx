@@ -10,7 +10,7 @@ const ProfileCard = (props) => {
                     {props.profileInfo.name}
                 </h3>
 
-                <h3 className={`${props.jobColor} opacity-90 text-sm`}>
+                <h3 className={`${props.jobColor} opacity-90 text-sm font-light`}>
                     {props.profileInfo.jobTitle}
                 </h3>
             </div>

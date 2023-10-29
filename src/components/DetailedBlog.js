@@ -40,7 +40,7 @@ const DetailedBlog = ({ image, title, name }) => {
 										Before we delve into the strategies, let's understand why
 										email marketing matters:
 									</p>
-									<ul className="pl-10">
+									<ul className="pl-5">
 										<li className="list-disc">
 											<span className="font-bold">Direct Communication:</span>{" "}
 											Email allows you to communicate directly with your
@@ -72,7 +72,7 @@ const DetailedBlog = ({ image, title, name }) => {
 									<h1 className="text-3xl font-bold py-10">
 										Strategies for Email Marketing Success
 									</h1>
-									<ul className="px-10">
+									<ul className="px-5">
 										<li className="list-decimal font-bold text-xl pb-8">
 											{" "}
 											Build a Quality Email List

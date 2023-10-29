@@ -62,7 +62,7 @@ function Newsletter() {
 								className="bg-transparent border-2 border-blue-300 w-full lg:w-80 h-10 rounded-lg px-4"
 								placeholder="Enter your email"
 							/>
-							<button className="h-10 lg:h-auto w-full lg:w-40 py-2 px-1 bg-white rounded-lg text-blue-600 hover:bg-blue-200">
+							<button className="h-10 lg:h-auto w-full lg:w-40 py-2 px-1 bg-white rounded-lg font-semibold text-blue-600 hover:bg-blue-200">
 								Subscribe
 							</button>
 						</div>
